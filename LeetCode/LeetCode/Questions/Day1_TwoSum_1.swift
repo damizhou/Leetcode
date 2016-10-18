@@ -16,13 +16,9 @@ class Day1_TwoSum_1: NSObject {
     /// Given nums = [2, 7, 11, 15], target = 9,
     /// Because nums[0] + nums[1] = 2 + 7 = 9,
     /// return [0, 1].
-    /// 解题思路: 维护一个字典,将之前的
-    ///
-    ///
-    ///
-    ///
-    ///
-    ///
+    /// 解题思路: 维护一个字典,将之前的遍历过的数字储存起来.使用nums[i]作为key,i作为value.这样继续遍历新的数字事,就可以检查target - current_num是否在字典中,在的话就输出value和target - current_num.
+    /// 该方法可以解决 两数相加和两数相乘等两个数位置可以互换的问题
+    
     /// - parameter nums:   整数数组
     /// - parameter target: 目标数
     ///
@@ -44,11 +40,15 @@ class Day1_TwoSum_1: NSObject {
         return resArray;
     }
     
+    /* adasdasd */
+    class func a() {
+        
+    }
     
     class func solution() {
-        let a = [3,11,2,4,1,5,6,7,8,9,10]
-        let b = 21
-        let c = self.twoSum(a, b)
-        print(c)
+        let nums = [3,11,2,4,1,5,6,7,8,9,10]
+        let target = 21
+        let result = self.twoSum(nums, target)
+        print(result)
     }
 }
