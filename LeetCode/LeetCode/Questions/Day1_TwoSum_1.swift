@@ -6,7 +6,7 @@
 //  Copyright © 2016年 pcz. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
 class Day1_TwoSum_1: NSObject {
 

@@ -14,11 +14,17 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 //        第一天
 //        Day1_TwoSum_1.solution()
-        Day2_Counting_Bits_338.solution()
+//        第二天
+//        Day2_CountingBits_338.solution()
+//        第三天
+        Day3_ReverseString_344.solution()
+
     }
 
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
+        
         // Dispose of any resources that can be recreated.
     }
 
