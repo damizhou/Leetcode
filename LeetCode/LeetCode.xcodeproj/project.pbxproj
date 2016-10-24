@@ -14,6 +14,7 @@
 		C13531951DB4ADDE00083CAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C13531941DB4ADDE00083CAC /* Assets.xcassets */; };
 		C13531981DB4ADDE00083CAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C13531961DB4ADDE00083CAC /* LaunchScreen.storyboard */; };
 		C13531A11DB4AE8400083CAC /* Day1_TwoSum_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13531A01DB4AE8400083CAC /* Day1_TwoSum_1.swift */; };
+		C1D603D81DBDC99C008F7A5F /* Day4_FizzBuzz_412.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D603D71DBDC99C008F7A5F /* Day4_FizzBuzz_412.swift */; };
 		C1F806C11DB5B40100F8C375 /* Day2_CountingBits_338.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F806C01DB5B40100F8C375 /* Day2_CountingBits_338.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		C13531971DB4ADDE00083CAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C13531991DB4ADDE00083CAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C13531A01DB4AE8400083CAC /* Day1_TwoSum_1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day1_TwoSum_1.swift; sourceTree = "<group>"; };
+		C1D603D71DBDC99C008F7A5F /* Day4_FizzBuzz_412.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day4_FizzBuzz_412.swift; sourceTree = "<group>"; };
 		C1F806C01DB5B40100F8C375 /* Day2_CountingBits_338.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day2_CountingBits_338.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,6 +79,7 @@
 				C13531A01DB4AE8400083CAC /* Day1_TwoSum_1.swift */,
 				C1F806C01DB5B40100F8C375 /* Day2_CountingBits_338.swift */,
 				C10C5FE71DB8626600A1E890 /* Day3_ReverseString_344.swift */,
+				C1D603D71DBDC99C008F7A5F /* Day4_FizzBuzz_412.swift */,
 			);
 			path = Questions;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 				C13531901DB4ADDE00083CAC /* ViewController.swift in Sources */,
 				C10C5FE81DB8626600A1E890 /* Day3_ReverseString_344.swift in Sources */,
 				C135318E1DB4ADDE00083CAC /* AppDelegate.swift in Sources */,
+				C1D603D81DBDC99C008F7A5F /* Day4_FizzBuzz_412.swift in Sources */,
 				C1F806C11DB5B40100F8C375 /* Day2_CountingBits_338.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

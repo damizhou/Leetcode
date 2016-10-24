@@ -17,7 +17,9 @@ class ViewController: UIViewController {
 //        第二天
 //        Day2_CountingBits_338.solution()
 //        第三天
-        Day3_ReverseString_344.solution()
+//        Day3_ReverseString_344.solution()
+//        第四天
+        Day4_FizzBuzz_412.solution()
 
     }
 
