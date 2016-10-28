@@ -19,7 +19,11 @@ class ViewController: UIViewController {
 //        第三天
 //        Day3_ReverseString_344.solution()
 //        第四天
-        Day4_FizzBuzz_412.solution()
+//        Day4_FizzBuzz_412.solution()
+//        第五天
+//        Day5_NimGame_292.solution()
+//        第六天
+        Day6_Single_Number_136.solution();
 
     }
 

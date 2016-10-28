@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C10C5FE81DB8626600A1E890 /* Day3_ReverseString_344.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10C5FE71DB8626600A1E890 /* Day3_ReverseString_344.swift */; };
 		C135318E1DB4ADDE00083CAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C135318D1DB4ADDE00083CAC /* AppDelegate.swift */; };
 		C13531901DB4ADDE00083CAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C135318F1DB4ADDE00083CAC /* ViewController.swift */; };
 		C13531931DB4ADDE00083CAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C13531911DB4ADDE00083CAC /* Main.storyboard */; };
 		C13531951DB4ADDE00083CAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C13531941DB4ADDE00083CAC /* Assets.xcassets */; };
 		C13531981DB4ADDE00083CAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C13531961DB4ADDE00083CAC /* LaunchScreen.storyboard */; };
-		C13531A11DB4AE8400083CAC /* Day1_TwoSum_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13531A01DB4AE8400083CAC /* Day1_TwoSum_1.swift */; };
-		C138245F1DBEECAF00A410A3 /* Day5_NimGame_292.swift in Sources */ = {isa = PBXBuildFile; fileRef = C138245E1DBEECAF00A410A3 /* Day5_NimGame_292.swift */; };
-		C13824611DBEEF9800A410A3 /* 292. NimGame.md in Sources */ = {isa = PBXBuildFile; fileRef = C13824601DBEEF9800A410A3 /* 292. NimGame.md */; };
-		C1D603D81DBDC99C008F7A5F /* Day4_FizzBuzz_412.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D603D71DBDC99C008F7A5F /* Day4_FizzBuzz_412.swift */; };
-		C1F806C11DB5B40100F8C375 /* Day2_CountingBits_338.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F806C01DB5B40100F8C375 /* Day2_CountingBits_338.swift */; };
+		C13E57561DC2F7E900CBE75B /* Day1_TwoSum_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13E574C1DC2F7E900CBE75B /* Day1_TwoSum_1.swift */; };
+		C13E57571DC2F7E900CBE75B /* Day2_CountingBits_338.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13E574E1DC2F7E900CBE75B /* Day2_CountingBits_338.swift */; };
+		C13E57581DC2F7E900CBE75B /* Day3_ReverseString_344.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13E57501DC2F7E900CBE75B /* Day3_ReverseString_344.swift */; };
+		C13E57591DC2F7E900CBE75B /* Day4_FizzBuzz_412.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13E57521DC2F7E900CBE75B /* Day4_FizzBuzz_412.swift */; };
+		C13E575A1DC2F7E900CBE75B /* 292. NimGame.md in Sources */ = {isa = PBXBuildFile; fileRef = C13E57541DC2F7E900CBE75B /* 292. NimGame.md */; };
+		C13E575B1DC2F7E900CBE75B /* Day5_NimGame_292.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13E57551DC2F7E900CBE75B /* Day5_NimGame_292.swift */; };
+		C13E57611DC2F8FD00CBE75B /* Day6_Single_Number_136.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13E57601DC2F8FD00CBE75B /* Day6_Single_Number_136.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C10C5FE71DB8626600A1E890 /* Day3_ReverseString_344.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day3_ReverseString_344.swift; sourceTree = "<group>"; };
 		C135318A1DB4ADDE00083CAC /* LeetCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C135318D1DB4ADDE00083CAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C135318F1DB4ADDE00083CAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,11 +29,13 @@
 		C13531941DB4ADDE00083CAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C13531971DB4ADDE00083CAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C13531991DB4ADDE00083CAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C13531A01DB4AE8400083CAC /* Day1_TwoSum_1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day1_TwoSum_1.swift; sourceTree = "<group>"; };
-		C138245E1DBEECAF00A410A3 /* Day5_NimGame_292.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day5_NimGame_292.swift; sourceTree = "<group>"; };
-		C13824601DBEEF9800A410A3 /* 292. NimGame.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "292. NimGame.md"; sourceTree = "<group>"; };
-		C1D603D71DBDC99C008F7A5F /* Day4_FizzBuzz_412.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day4_FizzBuzz_412.swift; sourceTree = "<group>"; };
-		C1F806C01DB5B40100F8C375 /* Day2_CountingBits_338.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day2_CountingBits_338.swift; sourceTree = "<group>"; };
+		C13E574C1DC2F7E900CBE75B /* Day1_TwoSum_1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day1_TwoSum_1.swift; sourceTree = "<group>"; };
+		C13E574E1DC2F7E900CBE75B /* Day2_CountingBits_338.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day2_CountingBits_338.swift; sourceTree = "<group>"; };
+		C13E57501DC2F7E900CBE75B /* Day3_ReverseString_344.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day3_ReverseString_344.swift; sourceTree = "<group>"; };
+		C13E57521DC2F7E900CBE75B /* Day4_FizzBuzz_412.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day4_FizzBuzz_412.swift; sourceTree = "<group>"; };
+		C13E57541DC2F7E900CBE75B /* 292. NimGame.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "292. NimGame.md"; sourceTree = "<group>"; };
+		C13E57551DC2F7E900CBE75B /* Day5_NimGame_292.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day5_NimGame_292.swift; sourceTree = "<group>"; };
+		C13E57601DC2F8FD00CBE75B /* Day6_Single_Number_136.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day6_Single_Number_136.swift; path = LeetCode/Questions/Day6_Single_Number_136/Day6_Single_Number_136.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,14 +82,64 @@
 		C135319F1DB4AE5C00083CAC /* Questions */ = {
 			isa = PBXGroup;
 			children = (
-				C13531A01DB4AE8400083CAC /* Day1_TwoSum_1.swift */,
-				C1F806C01DB5B40100F8C375 /* Day2_CountingBits_338.swift */,
-				C10C5FE71DB8626600A1E890 /* Day3_ReverseString_344.swift */,
-				C1D603D71DBDC99C008F7A5F /* Day4_FizzBuzz_412.swift */,
-				C138245E1DBEECAF00A410A3 /* Day5_NimGame_292.swift */,
-				C13824601DBEEF9800A410A3 /* 292. NimGame.md */,
+				C13E574B1DC2F7E900CBE75B /* Day1_TwoSum_1 */,
+				C13E574D1DC2F7E900CBE75B /* Day2_CountingBits_338 */,
+				C13E574F1DC2F7E900CBE75B /* Day3_ReverseString_344 */,
+				C13E57511DC2F7E900CBE75B /* Day4_FizzBuzz_412 */,
+				C13E57531DC2F7E900CBE75B /* Day5_NimGame_292 */,
+				C13E575C1DC2F88C00CBE75B /* Day6_Single_Number_136 */,
 			);
 			path = Questions;
+			sourceTree = "<group>";
+		};
+		C13E574B1DC2F7E900CBE75B /* Day1_TwoSum_1 */ = {
+			isa = PBXGroup;
+			children = (
+				C13E574C1DC2F7E900CBE75B /* Day1_TwoSum_1.swift */,
+			);
+			path = Day1_TwoSum_1;
+			sourceTree = "<group>";
+		};
+		C13E574D1DC2F7E900CBE75B /* Day2_CountingBits_338 */ = {
+			isa = PBXGroup;
+			children = (
+				C13E574E1DC2F7E900CBE75B /* Day2_CountingBits_338.swift */,
+			);
+			path = Day2_CountingBits_338;
+			sourceTree = "<group>";
+		};
+		C13E574F1DC2F7E900CBE75B /* Day3_ReverseString_344 */ = {
+			isa = PBXGroup;
+			children = (
+				C13E57501DC2F7E900CBE75B /* Day3_ReverseString_344.swift */,
+			);
+			path = Day3_ReverseString_344;
+			sourceTree = "<group>";
+		};
+		C13E57511DC2F7E900CBE75B /* Day4_FizzBuzz_412 */ = {
+			isa = PBXGroup;
+			children = (
+				C13E57521DC2F7E900CBE75B /* Day4_FizzBuzz_412.swift */,
+			);
+			path = Day4_FizzBuzz_412;
+			sourceTree = "<group>";
+		};
+		C13E57531DC2F7E900CBE75B /* Day5_NimGame_292 */ = {
+			isa = PBXGroup;
+			children = (
+				C13E57541DC2F7E900CBE75B /* 292. NimGame.md */,
+				C13E57551DC2F7E900CBE75B /* Day5_NimGame_292.swift */,
+			);
+			path = Day5_NimGame_292;
+			sourceTree = "<group>";
+		};
+		C13E575C1DC2F88C00CBE75B /* Day6_Single_Number_136 */ = {
+			isa = PBXGroup;
+			children = (
+				C13E57601DC2F8FD00CBE75B /* Day6_Single_Number_136.swift */,
+			);
+			name = Day6_Single_Number_136;
+			path = Day5_Single_Number_136;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +175,7 @@
 					C13531891DB4ADDE00083CAC = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = EMYEK7J4EV;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -163,14 +216,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C13531A11DB4AE8400083CAC /* Day1_TwoSum_1.swift in Sources */,
+				C13E575A1DC2F7E900CBE75B /* 292. NimGame.md in Sources */,
 				C13531901DB4ADDE00083CAC /* ViewController.swift in Sources */,
-				C10C5FE81DB8626600A1E890 /* Day3_ReverseString_344.swift in Sources */,
+				C13E57591DC2F7E900CBE75B /* Day4_FizzBuzz_412.swift in Sources */,
 				C135318E1DB4ADDE00083CAC /* AppDelegate.swift in Sources */,
-				C1D603D81DBDC99C008F7A5F /* Day4_FizzBuzz_412.swift in Sources */,
-				C1F806C11DB5B40100F8C375 /* Day2_CountingBits_338.swift in Sources */,
-				C138245F1DBEECAF00A410A3 /* Day5_NimGame_292.swift in Sources */,
-				C13824611DBEEF9800A410A3 /* 292. NimGame.md in Sources */,
+				C13E57581DC2F7E900CBE75B /* Day3_ReverseString_344.swift in Sources */,
+				C13E57561DC2F7E900CBE75B /* Day1_TwoSum_1.swift in Sources */,
+				C13E57571DC2F7E900CBE75B /* Day2_CountingBits_338.swift in Sources */,
+				C13E575B1DC2F7E900CBE75B /* Day5_NimGame_292.swift in Sources */,
+				C13E57611DC2F8FD00CBE75B /* Day6_Single_Number_136.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,11 +345,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = EMYEK7J4EV;
 				INFOPLIST_FILE = LeetCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pan.LeetCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -304,6 +360,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = EMYEK7J4EV;
 				INFOPLIST_FILE = LeetCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
