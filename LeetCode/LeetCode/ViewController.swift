@@ -23,7 +23,9 @@ class ViewController: UIViewController {
 //        第五天
 //        Day5_NimGame_292.solution()
 //        第六天
-        Day6_Single_Number_136.solution();
+//        Day6_Single_Number_136.solution();
+//        第七天
+        Day7_SumofTwoIntegers_371.solution();
 
     }
 

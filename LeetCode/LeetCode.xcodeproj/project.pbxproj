@@ -19,6 +19,8 @@
 		C13E575A1DC2F7E900CBE75B /* 292. NimGame.md in Sources */ = {isa = PBXBuildFile; fileRef = C13E57541DC2F7E900CBE75B /* 292. NimGame.md */; };
 		C13E575B1DC2F7E900CBE75B /* Day5_NimGame_292.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13E57551DC2F7E900CBE75B /* Day5_NimGame_292.swift */; };
 		C13E57611DC2F8FD00CBE75B /* Day6_Single_Number_136.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13E57601DC2F8FD00CBE75B /* Day6_Single_Number_136.swift */; };
+		C1ED31E11DC7243500548CE7 /* Day7_SumofTwoIntegers_371.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ED31E01DC7243500548CE7 /* Day7_SumofTwoIntegers_371.swift */; };
+		C1ED31E31DC72A7000548CE7 /* 371.SumofTwoIntegers.md in Sources */ = {isa = PBXBuildFile; fileRef = C1ED31E21DC72A7000548CE7 /* 371.SumofTwoIntegers.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		C13E57541DC2F7E900CBE75B /* 292. NimGame.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "292. NimGame.md"; sourceTree = "<group>"; };
 		C13E57551DC2F7E900CBE75B /* Day5_NimGame_292.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day5_NimGame_292.swift; sourceTree = "<group>"; };
 		C13E57601DC2F8FD00CBE75B /* Day6_Single_Number_136.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day6_Single_Number_136.swift; path = LeetCode/Questions/Day6_Single_Number_136/Day6_Single_Number_136.swift; sourceTree = SOURCE_ROOT; };
+		C1ED31E01DC7243500548CE7 /* Day7_SumofTwoIntegers_371.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day7_SumofTwoIntegers_371.swift; sourceTree = "<group>"; };
+		C1ED31E21DC72A7000548CE7 /* 371.SumofTwoIntegers.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = 371.SumofTwoIntegers.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,7 @@
 				C13E57511DC2F7E900CBE75B /* Day4_FizzBuzz_412 */,
 				C13E57531DC2F7E900CBE75B /* Day5_NimGame_292 */,
 				C13E575C1DC2F88C00CBE75B /* Day6_Single_Number_136 */,
+				C1ED31DF1DC7242C00548CE7 /* Day7_SumofTwoIntegers_371 */,
 			);
 			path = Questions;
 			sourceTree = "<group>";
@@ -140,6 +145,15 @@
 			);
 			name = Day6_Single_Number_136;
 			path = Day5_Single_Number_136;
+			sourceTree = "<group>";
+		};
+		C1ED31DF1DC7242C00548CE7 /* Day7_SumofTwoIntegers_371 */ = {
+			isa = PBXGroup;
+			children = (
+				C1ED31E21DC72A7000548CE7 /* 371.SumofTwoIntegers.md */,
+				C1ED31E01DC7243500548CE7 /* Day7_SumofTwoIntegers_371.swift */,
+			);
+			path = Day7_SumofTwoIntegers_371;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,6 +237,8 @@
 				C13E57581DC2F7E900CBE75B /* Day3_ReverseString_344.swift in Sources */,
 				C13E57561DC2F7E900CBE75B /* Day1_TwoSum_1.swift in Sources */,
 				C13E57571DC2F7E900CBE75B /* Day2_CountingBits_338.swift in Sources */,
+				C1ED31E31DC72A7000548CE7 /* 371.SumofTwoIntegers.md in Sources */,
+				C1ED31E11DC7243500548CE7 /* Day7_SumofTwoIntegers_371.swift in Sources */,
 				C13E575B1DC2F7E900CBE75B /* Day5_NimGame_292.swift in Sources */,
 				C13E57611DC2F8FD00CBE75B /* Day6_Single_Number_136.swift in Sources */,
 			);
