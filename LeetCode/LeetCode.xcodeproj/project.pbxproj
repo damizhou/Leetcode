@@ -12,15 +12,15 @@
 		C13531931DB4ADDE00083CAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C13531911DB4ADDE00083CAC /* Main.storyboard */; };
 		C13531951DB4ADDE00083CAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C13531941DB4ADDE00083CAC /* Assets.xcassets */; };
 		C13531981DB4ADDE00083CAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C13531961DB4ADDE00083CAC /* LaunchScreen.storyboard */; };
-		C13E57561DC2F7E900CBE75B /* Day1_TwoSum_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13E574C1DC2F7E900CBE75B /* Day1_TwoSum_1.swift */; };
-		C13E57571DC2F7E900CBE75B /* Day2_CountingBits_338.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13E574E1DC2F7E900CBE75B /* Day2_CountingBits_338.swift */; };
-		C13E57581DC2F7E900CBE75B /* Day3_ReverseString_344.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13E57501DC2F7E900CBE75B /* Day3_ReverseString_344.swift */; };
-		C13E57591DC2F7E900CBE75B /* Day4_FizzBuzz_412.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13E57521DC2F7E900CBE75B /* Day4_FizzBuzz_412.swift */; };
-		C13E575A1DC2F7E900CBE75B /* 292. NimGame.md in Sources */ = {isa = PBXBuildFile; fileRef = C13E57541DC2F7E900CBE75B /* 292. NimGame.md */; };
-		C13E575B1DC2F7E900CBE75B /* Day5_NimGame_292.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13E57551DC2F7E900CBE75B /* Day5_NimGame_292.swift */; };
-		C13E57611DC2F8FD00CBE75B /* Day6_Single_Number_136.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13E57601DC2F8FD00CBE75B /* Day6_Single_Number_136.swift */; };
-		C1ED31E11DC7243500548CE7 /* Day7_SumofTwoIntegers_371.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ED31E01DC7243500548CE7 /* Day7_SumofTwoIntegers_371.swift */; };
-		C1ED31E31DC72A7000548CE7 /* 371.SumofTwoIntegers.md in Sources */ = {isa = PBXBuildFile; fileRef = C1ED31E21DC72A7000548CE7 /* 371.SumofTwoIntegers.md */; };
+		C1ED31F51DC73A7B00548CE7 /* Day1_TwoSum_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ED31E61DC73A7B00548CE7 /* Day1_TwoSum_1.swift */; };
+		C1ED31F61DC73A7B00548CE7 /* Day2_CountingBits_338.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ED31E81DC73A7B00548CE7 /* Day2_CountingBits_338.swift */; };
+		C1ED31F71DC73A7B00548CE7 /* Day3_ReverseString_344.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ED31EA1DC73A7B00548CE7 /* Day3_ReverseString_344.swift */; };
+		C1ED31F81DC73A7B00548CE7 /* Day4_FizzBuzz_412.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ED31EC1DC73A7B00548CE7 /* Day4_FizzBuzz_412.swift */; };
+		C1ED31F91DC73A7B00548CE7 /* 292. NimGame.md in Sources */ = {isa = PBXBuildFile; fileRef = C1ED31EE1DC73A7B00548CE7 /* 292. NimGame.md */; };
+		C1ED31FA1DC73A7B00548CE7 /* Day5_NimGame_292.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ED31EF1DC73A7B00548CE7 /* Day5_NimGame_292.swift */; };
+		C1ED31FB1DC73A7B00548CE7 /* Day6_Single_Number_136.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ED31F11DC73A7B00548CE7 /* Day6_Single_Number_136.swift */; };
+		C1ED31FC1DC73A7B00548CE7 /* 371.SumofTwoIntegers.md in Sources */ = {isa = PBXBuildFile; fileRef = C1ED31F31DC73A7B00548CE7 /* 371.SumofTwoIntegers.md */; };
+		C1ED31FD1DC73A7B00548CE7 /* Day7_SumofTwoIntegers_371.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ED31F41DC73A7B00548CE7 /* Day7_SumofTwoIntegers_371.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,15 +31,15 @@
 		C13531941DB4ADDE00083CAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C13531971DB4ADDE00083CAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C13531991DB4ADDE00083CAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C13E574C1DC2F7E900CBE75B /* Day1_TwoSum_1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day1_TwoSum_1.swift; sourceTree = "<group>"; };
-		C13E574E1DC2F7E900CBE75B /* Day2_CountingBits_338.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day2_CountingBits_338.swift; sourceTree = "<group>"; };
-		C13E57501DC2F7E900CBE75B /* Day3_ReverseString_344.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day3_ReverseString_344.swift; sourceTree = "<group>"; };
-		C13E57521DC2F7E900CBE75B /* Day4_FizzBuzz_412.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day4_FizzBuzz_412.swift; sourceTree = "<group>"; };
-		C13E57541DC2F7E900CBE75B /* 292. NimGame.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "292. NimGame.md"; sourceTree = "<group>"; };
-		C13E57551DC2F7E900CBE75B /* Day5_NimGame_292.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day5_NimGame_292.swift; sourceTree = "<group>"; };
-		C13E57601DC2F8FD00CBE75B /* Day6_Single_Number_136.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day6_Single_Number_136.swift; path = LeetCode/Questions/Day6_Single_Number_136/Day6_Single_Number_136.swift; sourceTree = SOURCE_ROOT; };
-		C1ED31E01DC7243500548CE7 /* Day7_SumofTwoIntegers_371.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day7_SumofTwoIntegers_371.swift; sourceTree = "<group>"; };
-		C1ED31E21DC72A7000548CE7 /* 371.SumofTwoIntegers.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = 371.SumofTwoIntegers.md; sourceTree = "<group>"; };
+		C1ED31E61DC73A7B00548CE7 /* Day1_TwoSum_1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day1_TwoSum_1.swift; sourceTree = "<group>"; };
+		C1ED31E81DC73A7B00548CE7 /* Day2_CountingBits_338.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day2_CountingBits_338.swift; sourceTree = "<group>"; };
+		C1ED31EA1DC73A7B00548CE7 /* Day3_ReverseString_344.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day3_ReverseString_344.swift; sourceTree = "<group>"; };
+		C1ED31EC1DC73A7B00548CE7 /* Day4_FizzBuzz_412.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day4_FizzBuzz_412.swift; sourceTree = "<group>"; };
+		C1ED31EE1DC73A7B00548CE7 /* 292. NimGame.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "292. NimGame.md"; sourceTree = "<group>"; };
+		C1ED31EF1DC73A7B00548CE7 /* Day5_NimGame_292.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day5_NimGame_292.swift; sourceTree = "<group>"; };
+		C1ED31F11DC73A7B00548CE7 /* Day6_Single_Number_136.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day6_Single_Number_136.swift; sourceTree = "<group>"; };
+		C1ED31F31DC73A7B00548CE7 /* 371.SumofTwoIntegers.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = 371.SumofTwoIntegers.md; sourceTree = "<group>"; };
+		C1ED31F41DC73A7B00548CE7 /* Day7_SumofTwoIntegers_371.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day7_SumofTwoIntegers_371.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,72 +86,79 @@
 		C135319F1DB4AE5C00083CAC /* Questions */ = {
 			isa = PBXGroup;
 			children = (
-				C13E574B1DC2F7E900CBE75B /* Day1_TwoSum_1 */,
-				C13E574D1DC2F7E900CBE75B /* Day2_CountingBits_338 */,
-				C13E574F1DC2F7E900CBE75B /* Day3_ReverseString_344 */,
-				C13E57511DC2F7E900CBE75B /* Day4_FizzBuzz_412 */,
-				C13E57531DC2F7E900CBE75B /* Day5_NimGame_292 */,
-				C13E575C1DC2F88C00CBE75B /* Day6_Single_Number_136 */,
-				C1ED31DF1DC7242C00548CE7 /* Day7_SumofTwoIntegers_371 */,
+				C1ED31E41DC73A7B00548CE7 /* Week1 */,
 			);
 			path = Questions;
 			sourceTree = "<group>";
 		};
-		C13E574B1DC2F7E900CBE75B /* Day1_TwoSum_1 */ = {
+		C1ED31E41DC73A7B00548CE7 /* Week1 */ = {
 			isa = PBXGroup;
 			children = (
-				C13E574C1DC2F7E900CBE75B /* Day1_TwoSum_1.swift */,
+				C1ED31E51DC73A7B00548CE7 /* Day1_TwoSum_1 */,
+				C1ED31E71DC73A7B00548CE7 /* Day2_CountingBits_338 */,
+				C1ED31E91DC73A7B00548CE7 /* Day3_ReverseString_344 */,
+				C1ED31EB1DC73A7B00548CE7 /* Day4_FizzBuzz_412 */,
+				C1ED31ED1DC73A7B00548CE7 /* Day5_NimGame_292 */,
+				C1ED31F01DC73A7B00548CE7 /* Day6_Single_Number_136 */,
+				C1ED31F21DC73A7B00548CE7 /* Day7_SumofTwoIntegers_371 */,
+			);
+			path = Week1;
+			sourceTree = "<group>";
+		};
+		C1ED31E51DC73A7B00548CE7 /* Day1_TwoSum_1 */ = {
+			isa = PBXGroup;
+			children = (
+				C1ED31E61DC73A7B00548CE7 /* Day1_TwoSum_1.swift */,
 			);
 			path = Day1_TwoSum_1;
 			sourceTree = "<group>";
 		};
-		C13E574D1DC2F7E900CBE75B /* Day2_CountingBits_338 */ = {
+		C1ED31E71DC73A7B00548CE7 /* Day2_CountingBits_338 */ = {
 			isa = PBXGroup;
 			children = (
-				C13E574E1DC2F7E900CBE75B /* Day2_CountingBits_338.swift */,
+				C1ED31E81DC73A7B00548CE7 /* Day2_CountingBits_338.swift */,
 			);
 			path = Day2_CountingBits_338;
 			sourceTree = "<group>";
 		};
-		C13E574F1DC2F7E900CBE75B /* Day3_ReverseString_344 */ = {
+		C1ED31E91DC73A7B00548CE7 /* Day3_ReverseString_344 */ = {
 			isa = PBXGroup;
 			children = (
-				C13E57501DC2F7E900CBE75B /* Day3_ReverseString_344.swift */,
+				C1ED31EA1DC73A7B00548CE7 /* Day3_ReverseString_344.swift */,
 			);
 			path = Day3_ReverseString_344;
 			sourceTree = "<group>";
 		};
-		C13E57511DC2F7E900CBE75B /* Day4_FizzBuzz_412 */ = {
+		C1ED31EB1DC73A7B00548CE7 /* Day4_FizzBuzz_412 */ = {
 			isa = PBXGroup;
 			children = (
-				C13E57521DC2F7E900CBE75B /* Day4_FizzBuzz_412.swift */,
+				C1ED31EC1DC73A7B00548CE7 /* Day4_FizzBuzz_412.swift */,
 			);
 			path = Day4_FizzBuzz_412;
 			sourceTree = "<group>";
 		};
-		C13E57531DC2F7E900CBE75B /* Day5_NimGame_292 */ = {
+		C1ED31ED1DC73A7B00548CE7 /* Day5_NimGame_292 */ = {
 			isa = PBXGroup;
 			children = (
-				C13E57541DC2F7E900CBE75B /* 292. NimGame.md */,
-				C13E57551DC2F7E900CBE75B /* Day5_NimGame_292.swift */,
+				C1ED31EE1DC73A7B00548CE7 /* 292. NimGame.md */,
+				C1ED31EF1DC73A7B00548CE7 /* Day5_NimGame_292.swift */,
 			);
 			path = Day5_NimGame_292;
 			sourceTree = "<group>";
 		};
-		C13E575C1DC2F88C00CBE75B /* Day6_Single_Number_136 */ = {
+		C1ED31F01DC73A7B00548CE7 /* Day6_Single_Number_136 */ = {
 			isa = PBXGroup;
 			children = (
-				C13E57601DC2F8FD00CBE75B /* Day6_Single_Number_136.swift */,
+				C1ED31F11DC73A7B00548CE7 /* Day6_Single_Number_136.swift */,
 			);
-			name = Day6_Single_Number_136;
-			path = Day5_Single_Number_136;
+			path = Day6_Single_Number_136;
 			sourceTree = "<group>";
 		};
-		C1ED31DF1DC7242C00548CE7 /* Day7_SumofTwoIntegers_371 */ = {
+		C1ED31F21DC73A7B00548CE7 /* Day7_SumofTwoIntegers_371 */ = {
 			isa = PBXGroup;
 			children = (
-				C1ED31E21DC72A7000548CE7 /* 371.SumofTwoIntegers.md */,
-				C1ED31E01DC7243500548CE7 /* Day7_SumofTwoIntegers_371.swift */,
+				C1ED31F31DC73A7B00548CE7 /* 371.SumofTwoIntegers.md */,
+				C1ED31F41DC73A7B00548CE7 /* Day7_SumofTwoIntegers_371.swift */,
 			);
 			path = Day7_SumofTwoIntegers_371;
 			sourceTree = "<group>";
@@ -230,17 +237,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C13E575A1DC2F7E900CBE75B /* 292. NimGame.md in Sources */,
+				C1ED31F51DC73A7B00548CE7 /* Day1_TwoSum_1.swift in Sources */,
 				C13531901DB4ADDE00083CAC /* ViewController.swift in Sources */,
-				C13E57591DC2F7E900CBE75B /* Day4_FizzBuzz_412.swift in Sources */,
+				C1ED31FC1DC73A7B00548CE7 /* 371.SumofTwoIntegers.md in Sources */,
+				C1ED31FD1DC73A7B00548CE7 /* Day7_SumofTwoIntegers_371.swift in Sources */,
+				C1ED31F91DC73A7B00548CE7 /* 292. NimGame.md in Sources */,
+				C1ED31F71DC73A7B00548CE7 /* Day3_ReverseString_344.swift in Sources */,
+				C1ED31F81DC73A7B00548CE7 /* Day4_FizzBuzz_412.swift in Sources */,
+				C1ED31FA1DC73A7B00548CE7 /* Day5_NimGame_292.swift in Sources */,
 				C135318E1DB4ADDE00083CAC /* AppDelegate.swift in Sources */,
-				C13E57581DC2F7E900CBE75B /* Day3_ReverseString_344.swift in Sources */,
-				C13E57561DC2F7E900CBE75B /* Day1_TwoSum_1.swift in Sources */,
-				C13E57571DC2F7E900CBE75B /* Day2_CountingBits_338.swift in Sources */,
-				C1ED31E31DC72A7000548CE7 /* 371.SumofTwoIntegers.md in Sources */,
-				C1ED31E11DC7243500548CE7 /* Day7_SumofTwoIntegers_371.swift in Sources */,
-				C13E575B1DC2F7E900CBE75B /* Day5_NimGame_292.swift in Sources */,
-				C13E57611DC2F8FD00CBE75B /* Day6_Single_Number_136.swift in Sources */,
+				C1ED31F61DC73A7B00548CE7 /* Day2_CountingBits_338.swift in Sources */,
+				C1ED31FB1DC73A7B00548CE7 /* Day6_Single_Number_136.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
