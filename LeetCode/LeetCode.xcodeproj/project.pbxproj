@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C12304C21DC9947E009F2A16 /* Day8_AddDigits_258.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12304C11DC9947E009F2A16 /* Day8_AddDigits_258.swift */; };
 		C135318E1DB4ADDE00083CAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C135318D1DB4ADDE00083CAC /* AppDelegate.swift */; };
 		C13531901DB4ADDE00083CAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C135318F1DB4ADDE00083CAC /* ViewController.swift */; };
 		C13531931DB4ADDE00083CAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C13531911DB4ADDE00083CAC /* Main.storyboard */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C12304C11DC9947E009F2A16 /* Day8_AddDigits_258.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day8_AddDigits_258.swift; sourceTree = "<group>"; };
 		C135318A1DB4ADDE00083CAC /* LeetCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C135318D1DB4ADDE00083CAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C135318F1DB4ADDE00083CAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +55,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C12304BF1DC9947E009F2A16 /* Week2 */ = {
+			isa = PBXGroup;
+			children = (
+				C12304C01DC9947E009F2A16 /* Day8_AddDigits_258 */,
+			);
+			path = Week2;
+			sourceTree = "<group>";
+		};
+		C12304C01DC9947E009F2A16 /* Day8_AddDigits_258 */ = {
+			isa = PBXGroup;
+			children = (
+				C12304C11DC9947E009F2A16 /* Day8_AddDigits_258.swift */,
+			);
+			path = Day8_AddDigits_258;
+			sourceTree = "<group>";
+		};
 		C13531811DB4ADDE00083CAC = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				C1ED31E41DC73A7B00548CE7 /* Week1 */,
+				C12304BF1DC9947E009F2A16 /* Week2 */,
 			);
 			path = Questions;
 			sourceTree = "<group>";
@@ -240,6 +259,7 @@
 				C1ED31F51DC73A7B00548CE7 /* Day1_TwoSum_1.swift in Sources */,
 				C13531901DB4ADDE00083CAC /* ViewController.swift in Sources */,
 				C1ED31FC1DC73A7B00548CE7 /* 371.SumofTwoIntegers.md in Sources */,
+				C12304C21DC9947E009F2A16 /* Day8_AddDigits_258.swift in Sources */,
 				C1ED31FD1DC73A7B00548CE7 /* Day7_SumofTwoIntegers_371.swift in Sources */,
 				C1ED31F91DC73A7B00548CE7 /* 292. NimGame.md in Sources */,
 				C1ED31F71DC73A7B00548CE7 /* Day3_ReverseString_344.swift in Sources */,
