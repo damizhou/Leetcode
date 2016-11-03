@@ -22,6 +22,7 @@
 		C17ECC241DCACF6800513304 /* 371.SumofTwoIntegers.md in Sources */ = {isa = PBXBuildFile; fileRef = C17ECC181DCACF6800513304 /* 371.SumofTwoIntegers.md */; };
 		C17ECC251DCACF6800513304 /* Day7_SumofTwoIntegers_371.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17ECC191DCACF6800513304 /* Day7_SumofTwoIntegers_371.swift */; };
 		C17ECC261DCACF6800513304 /* Day8_AddDigits_258.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17ECC1C1DCACF6800513304 /* Day8_AddDigits_258.swift */; };
+		C17ECC291DCAD5A000513304 /* Day9_MoveZeroes_283.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17ECC281DCAD5A000513304 /* Day9_MoveZeroes_283.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		C17ECC181DCACF6800513304 /* 371.SumofTwoIntegers.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = 371.SumofTwoIntegers.md; sourceTree = "<group>"; };
 		C17ECC191DCACF6800513304 /* Day7_SumofTwoIntegers_371.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day7_SumofTwoIntegers_371.swift; sourceTree = "<group>"; };
 		C17ECC1C1DCACF6800513304 /* Day8_AddDigits_258.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day8_AddDigits_258.swift; sourceTree = "<group>"; };
+		C17ECC281DCAD5A000513304 /* Day9_MoveZeroes_283.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day9_MoveZeroes_283.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				C17ECC1B1DCACF6800513304 /* Day8_AddDigits_258 */,
+				C17ECC271DCAD58500513304 /* Day9_MoveZeroes_283 */,
 			);
 			path = Week2;
 			sourceTree = "<group>";
@@ -188,6 +191,14 @@
 				C17ECC1C1DCACF6800513304 /* Day8_AddDigits_258.swift */,
 			);
 			path = Day8_AddDigits_258;
+			sourceTree = "<group>";
+		};
+		C17ECC271DCAD58500513304 /* Day9_MoveZeroes_283 */ = {
+			isa = PBXGroup;
+			children = (
+				C17ECC281DCAD5A000513304 /* Day9_MoveZeroes_283.swift */,
+			);
+			path = Day9_MoveZeroes_283;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +277,7 @@
 			files = (
 				C17ECC1D1DCACF6800513304 /* Day1_TwoSum_1.swift in Sources */,
 				C13531901DB4ADDE00083CAC /* ViewController.swift in Sources */,
+				C17ECC291DCAD5A000513304 /* Day9_MoveZeroes_283.swift in Sources */,
 				C17ECC241DCACF6800513304 /* 371.SumofTwoIntegers.md in Sources */,
 				C17ECC261DCACF6800513304 /* Day8_AddDigits_258.swift in Sources */,
 				C17ECC251DCACF6800513304 /* Day7_SumofTwoIntegers_371.swift in Sources */,
