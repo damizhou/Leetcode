@@ -15,7 +15,9 @@ class ViewController: UIViewController {
 //        第八天
 //        Day8_AddDigits_258.solution()
 //        第九天
-        Day9_MoveZeroes_283.solution()
+//        Day9_MoveZeroes_283.solution()
+//        第十天
+        Day10_RansomNote_383.solution()
 
     }
 
