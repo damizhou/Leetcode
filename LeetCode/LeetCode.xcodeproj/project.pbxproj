@@ -7,49 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C135318E1DB4ADDE00083CAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C135318D1DB4ADDE00083CAC /* AppDelegate.swift */; };
-		C13531901DB4ADDE00083CAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C135318F1DB4ADDE00083CAC /* ViewController.swift */; };
-		C13531931DB4ADDE00083CAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C13531911DB4ADDE00083CAC /* Main.storyboard */; };
-		C13531951DB4ADDE00083CAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C13531941DB4ADDE00083CAC /* Assets.xcassets */; };
-		C13531981DB4ADDE00083CAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C13531961DB4ADDE00083CAC /* LaunchScreen.storyboard */; };
-		C17ECC1D1DCACF6800513304 /* Day1_TwoSum_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17ECC0B1DCACF6800513304 /* Day1_TwoSum_1.swift */; };
-		C17ECC1E1DCACF6800513304 /* Day2_CountingBits_338.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17ECC0D1DCACF6800513304 /* Day2_CountingBits_338.swift */; };
-		C17ECC1F1DCACF6800513304 /* Day3_ReverseString_344.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17ECC0F1DCACF6800513304 /* Day3_ReverseString_344.swift */; };
-		C17ECC201DCACF6800513304 /* Day4_FizzBuzz_412.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17ECC111DCACF6800513304 /* Day4_FizzBuzz_412.swift */; };
-		C17ECC211DCACF6800513304 /* 292. NimGame.md in Sources */ = {isa = PBXBuildFile; fileRef = C17ECC131DCACF6800513304 /* 292. NimGame.md */; };
-		C17ECC221DCACF6800513304 /* Day5_NimGame_292.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17ECC141DCACF6800513304 /* Day5_NimGame_292.swift */; };
-		C17ECC231DCACF6800513304 /* Day6_Single_Number_136.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17ECC161DCACF6800513304 /* Day6_Single_Number_136.swift */; };
-		C17ECC241DCACF6800513304 /* 371.SumofTwoIntegers.md in Sources */ = {isa = PBXBuildFile; fileRef = C17ECC181DCACF6800513304 /* 371.SumofTwoIntegers.md */; };
-		C17ECC251DCACF6800513304 /* Day7_SumofTwoIntegers_371.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17ECC191DCACF6800513304 /* Day7_SumofTwoIntegers_371.swift */; };
-		C17ECC261DCACF6800513304 /* Day8_AddDigits_258.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17ECC1C1DCACF6800513304 /* Day8_AddDigits_258.swift */; };
-		C17ECC291DCAD5A000513304 /* Day9_MoveZeroes_283.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17ECC281DCAD5A000513304 /* Day9_MoveZeroes_283.swift */; };
-		C1F15DA51DCCA60800459378 /* Day10_RansomNote_383.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F15DA41DCCA60800459378 /* Day10_RansomNote_383.swift */; };
+		C17AEF6E1DD2146500F30316 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17AEF6D1DD2146500F30316 /* main.swift */; };
+		C17AEF901DD214DA00F30316 /* Day1_TwoSum_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17AEF781DD214DA00F30316 /* Day1_TwoSum_1.swift */; };
+		C17AEF911DD214DA00F30316 /* Day2_CountingBits_338.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17AEF7A1DD214DA00F30316 /* Day2_CountingBits_338.swift */; };
+		C17AEF921DD214DA00F30316 /* Day3_ReverseString_344.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17AEF7C1DD214DA00F30316 /* Day3_ReverseString_344.swift */; };
+		C17AEF931DD214DA00F30316 /* Day4_FizzBuzz_412.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17AEF7E1DD214DA00F30316 /* Day4_FizzBuzz_412.swift */; };
+		C17AEF941DD214DA00F30316 /* 292. NimGame.md in Sources */ = {isa = PBXBuildFile; fileRef = C17AEF801DD214DA00F30316 /* 292. NimGame.md */; };
+		C17AEF951DD214DA00F30316 /* Day5_NimGame_292.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17AEF811DD214DA00F30316 /* Day5_NimGame_292.swift */; };
+		C17AEF961DD214DA00F30316 /* Day6_Single_Number_136.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17AEF831DD214DA00F30316 /* Day6_Single_Number_136.swift */; };
+		C17AEF971DD214DA00F30316 /* 371.SumofTwoIntegers.md in Sources */ = {isa = PBXBuildFile; fileRef = C17AEF851DD214DA00F30316 /* 371.SumofTwoIntegers.md */; };
+		C17AEF981DD214DA00F30316 /* Day7_SumofTwoIntegers_371.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17AEF861DD214DA00F30316 /* Day7_SumofTwoIntegers_371.swift */; };
+		C17AEF991DD214DA00F30316 /* Day10_RansomNote_383.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17AEF891DD214DA00F30316 /* Day10_RansomNote_383.swift */; };
+		C17AEF9A1DD214DA00F30316 /* Day11_IntersectionofTwoArrays_349.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17AEF8B1DD214DA00F30316 /* Day11_IntersectionofTwoArrays_349.swift */; };
+		C17AEF9B1DD214DA00F30316 /* Day8_AddDigits_258.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17AEF8D1DD214DA00F30316 /* Day8_AddDigits_258.swift */; };
+		C17AEF9C1DD214DA00F30316 /* Day9_MoveZeroes_283.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17AEF8F1DD214DA00F30316 /* Day9_MoveZeroes_283.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		C17AEF681DD2146500F30316 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		C135318A1DB4ADDE00083CAC /* LeetCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C135318D1DB4ADDE00083CAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C135318F1DB4ADDE00083CAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C13531921DB4ADDE00083CAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C13531941DB4ADDE00083CAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C13531971DB4ADDE00083CAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C13531991DB4ADDE00083CAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C17ECC0B1DCACF6800513304 /* Day1_TwoSum_1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day1_TwoSum_1.swift; sourceTree = "<group>"; };
-		C17ECC0D1DCACF6800513304 /* Day2_CountingBits_338.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day2_CountingBits_338.swift; sourceTree = "<group>"; };
-		C17ECC0F1DCACF6800513304 /* Day3_ReverseString_344.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day3_ReverseString_344.swift; sourceTree = "<group>"; };
-		C17ECC111DCACF6800513304 /* Day4_FizzBuzz_412.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day4_FizzBuzz_412.swift; sourceTree = "<group>"; };
-		C17ECC131DCACF6800513304 /* 292. NimGame.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "292. NimGame.md"; sourceTree = "<group>"; };
-		C17ECC141DCACF6800513304 /* Day5_NimGame_292.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day5_NimGame_292.swift; sourceTree = "<group>"; };
-		C17ECC161DCACF6800513304 /* Day6_Single_Number_136.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day6_Single_Number_136.swift; sourceTree = "<group>"; };
-		C17ECC181DCACF6800513304 /* 371.SumofTwoIntegers.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = 371.SumofTwoIntegers.md; sourceTree = "<group>"; };
-		C17ECC191DCACF6800513304 /* Day7_SumofTwoIntegers_371.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day7_SumofTwoIntegers_371.swift; sourceTree = "<group>"; };
-		C17ECC1C1DCACF6800513304 /* Day8_AddDigits_258.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day8_AddDigits_258.swift; sourceTree = "<group>"; };
-		C17ECC281DCAD5A000513304 /* Day9_MoveZeroes_283.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day9_MoveZeroes_283.swift; sourceTree = "<group>"; };
-		C1F15DA41DCCA60800459378 /* Day10_RansomNote_383.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day10_RansomNote_383.swift; sourceTree = "<group>"; };
+		C17AEF6A1DD2146500F30316 /* Leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
+		C17AEF6D1DD2146500F30316 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C17AEF781DD214DA00F30316 /* Day1_TwoSum_1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day1_TwoSum_1.swift; sourceTree = "<group>"; };
+		C17AEF7A1DD214DA00F30316 /* Day2_CountingBits_338.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day2_CountingBits_338.swift; sourceTree = "<group>"; };
+		C17AEF7C1DD214DA00F30316 /* Day3_ReverseString_344.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day3_ReverseString_344.swift; sourceTree = "<group>"; };
+		C17AEF7E1DD214DA00F30316 /* Day4_FizzBuzz_412.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day4_FizzBuzz_412.swift; sourceTree = "<group>"; };
+		C17AEF801DD214DA00F30316 /* 292. NimGame.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "292. NimGame.md"; sourceTree = "<group>"; };
+		C17AEF811DD214DA00F30316 /* Day5_NimGame_292.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day5_NimGame_292.swift; sourceTree = "<group>"; };
+		C17AEF831DD214DA00F30316 /* Day6_Single_Number_136.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day6_Single_Number_136.swift; sourceTree = "<group>"; };
+		C17AEF851DD214DA00F30316 /* 371.SumofTwoIntegers.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = 371.SumofTwoIntegers.md; sourceTree = "<group>"; };
+		C17AEF861DD214DA00F30316 /* Day7_SumofTwoIntegers_371.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day7_SumofTwoIntegers_371.swift; sourceTree = "<group>"; };
+		C17AEF891DD214DA00F30316 /* Day10_RansomNote_383.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day10_RansomNote_383.swift; sourceTree = "<group>"; };
+		C17AEF8B1DD214DA00F30316 /* Day11_IntersectionofTwoArrays_349.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day11_IntersectionofTwoArrays_349.swift; sourceTree = "<group>"; };
+		C17AEF8D1DD214DA00F30316 /* Day8_AddDigits_258.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day8_AddDigits_258.swift; sourceTree = "<group>"; };
+		C17AEF8F1DD214DA00F30316 /* Day9_MoveZeroes_283.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day9_MoveZeroes_283.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C13531871DB4ADDE00083CAC /* Frameworks */ = {
+		C17AEF671DD2146500F30316 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -59,273 +64,242 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C13531811DB4ADDE00083CAC = {
+		C17AEF611DD2146500F30316 = {
 			isa = PBXGroup;
 			children = (
-				C135318C1DB4ADDE00083CAC /* LeetCode */,
-				C135318B1DB4ADDE00083CAC /* Products */,
+				C17AEF6C1DD2146500F30316 /* Leetcode */,
+				C17AEF6B1DD2146500F30316 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C135318B1DB4ADDE00083CAC /* Products */ = {
+		C17AEF6B1DD2146500F30316 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C135318A1DB4ADDE00083CAC /* LeetCode.app */,
+				C17AEF6A1DD2146500F30316 /* Leetcode */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C135318C1DB4ADDE00083CAC /* LeetCode */ = {
+		C17AEF6C1DD2146500F30316 /* Leetcode */ = {
 			isa = PBXGroup;
 			children = (
-				C135319F1DB4AE5C00083CAC /* Questions */,
-				C135318D1DB4ADDE00083CAC /* AppDelegate.swift */,
-				C135318F1DB4ADDE00083CAC /* ViewController.swift */,
-				C13531911DB4ADDE00083CAC /* Main.storyboard */,
-				C13531941DB4ADDE00083CAC /* Assets.xcassets */,
-				C13531961DB4ADDE00083CAC /* LaunchScreen.storyboard */,
-				C13531991DB4ADDE00083CAC /* Info.plist */,
+				C17AEF741DD214DA00F30316 /* Questions */,
+				C17AEF6D1DD2146500F30316 /* main.swift */,
 			);
-			path = LeetCode;
+			path = Leetcode;
 			sourceTree = "<group>";
 		};
-		C135319F1DB4AE5C00083CAC /* Questions */ = {
+		C17AEF741DD214DA00F30316 /* Questions */ = {
 			isa = PBXGroup;
 			children = (
-				C17ECC081DCACF6800513304 /* Month1 */,
+				C17AEF751DD214DA00F30316 /* Month1 */,
 			);
 			path = Questions;
 			sourceTree = "<group>";
 		};
-		C17ECC081DCACF6800513304 /* Month1 */ = {
+		C17AEF751DD214DA00F30316 /* Month1 */ = {
 			isa = PBXGroup;
 			children = (
-				C17ECC091DCACF6800513304 /* Week1 */,
-				C17ECC1A1DCACF6800513304 /* Week2 */,
+				C17AEF761DD214DA00F30316 /* Week1 */,
+				C17AEF871DD214DA00F30316 /* Week2 */,
 			);
 			path = Month1;
 			sourceTree = "<group>";
 		};
-		C17ECC091DCACF6800513304 /* Week1 */ = {
+		C17AEF761DD214DA00F30316 /* Week1 */ = {
 			isa = PBXGroup;
 			children = (
-				C17ECC0A1DCACF6800513304 /* Day1_TwoSum_1 */,
-				C17ECC0C1DCACF6800513304 /* Day2_CountingBits_338 */,
-				C17ECC0E1DCACF6800513304 /* Day3_ReverseString_344 */,
-				C17ECC101DCACF6800513304 /* Day4_FizzBuzz_412 */,
-				C17ECC121DCACF6800513304 /* Day5_NimGame_292 */,
-				C17ECC151DCACF6800513304 /* Day6_Single_Number_136 */,
-				C17ECC171DCACF6800513304 /* Day7_SumofTwoIntegers_371 */,
+				C17AEF771DD214DA00F30316 /* Day1_TwoSum_1 */,
+				C17AEF791DD214DA00F30316 /* Day2_CountingBits_338 */,
+				C17AEF7B1DD214DA00F30316 /* Day3_ReverseString_344 */,
+				C17AEF7D1DD214DA00F30316 /* Day4_FizzBuzz_412 */,
+				C17AEF7F1DD214DA00F30316 /* Day5_NimGame_292 */,
+				C17AEF821DD214DA00F30316 /* Day6_Single_Number_136 */,
+				C17AEF841DD214DA00F30316 /* Day7_SumofTwoIntegers_371 */,
 			);
 			path = Week1;
 			sourceTree = "<group>";
 		};
-		C17ECC0A1DCACF6800513304 /* Day1_TwoSum_1 */ = {
+		C17AEF771DD214DA00F30316 /* Day1_TwoSum_1 */ = {
 			isa = PBXGroup;
 			children = (
-				C17ECC0B1DCACF6800513304 /* Day1_TwoSum_1.swift */,
+				C17AEF781DD214DA00F30316 /* Day1_TwoSum_1.swift */,
 			);
 			path = Day1_TwoSum_1;
 			sourceTree = "<group>";
 		};
-		C17ECC0C1DCACF6800513304 /* Day2_CountingBits_338 */ = {
+		C17AEF791DD214DA00F30316 /* Day2_CountingBits_338 */ = {
 			isa = PBXGroup;
 			children = (
-				C17ECC0D1DCACF6800513304 /* Day2_CountingBits_338.swift */,
+				C17AEF7A1DD214DA00F30316 /* Day2_CountingBits_338.swift */,
 			);
 			path = Day2_CountingBits_338;
 			sourceTree = "<group>";
 		};
-		C17ECC0E1DCACF6800513304 /* Day3_ReverseString_344 */ = {
+		C17AEF7B1DD214DA00F30316 /* Day3_ReverseString_344 */ = {
 			isa = PBXGroup;
 			children = (
-				C17ECC0F1DCACF6800513304 /* Day3_ReverseString_344.swift */,
+				C17AEF7C1DD214DA00F30316 /* Day3_ReverseString_344.swift */,
 			);
 			path = Day3_ReverseString_344;
 			sourceTree = "<group>";
 		};
-		C17ECC101DCACF6800513304 /* Day4_FizzBuzz_412 */ = {
+		C17AEF7D1DD214DA00F30316 /* Day4_FizzBuzz_412 */ = {
 			isa = PBXGroup;
 			children = (
-				C17ECC111DCACF6800513304 /* Day4_FizzBuzz_412.swift */,
+				C17AEF7E1DD214DA00F30316 /* Day4_FizzBuzz_412.swift */,
 			);
 			path = Day4_FizzBuzz_412;
 			sourceTree = "<group>";
 		};
-		C17ECC121DCACF6800513304 /* Day5_NimGame_292 */ = {
+		C17AEF7F1DD214DA00F30316 /* Day5_NimGame_292 */ = {
 			isa = PBXGroup;
 			children = (
-				C17ECC131DCACF6800513304 /* 292. NimGame.md */,
-				C17ECC141DCACF6800513304 /* Day5_NimGame_292.swift */,
+				C17AEF801DD214DA00F30316 /* 292. NimGame.md */,
+				C17AEF811DD214DA00F30316 /* Day5_NimGame_292.swift */,
 			);
 			path = Day5_NimGame_292;
 			sourceTree = "<group>";
 		};
-		C17ECC151DCACF6800513304 /* Day6_Single_Number_136 */ = {
+		C17AEF821DD214DA00F30316 /* Day6_Single_Number_136 */ = {
 			isa = PBXGroup;
 			children = (
-				C17ECC161DCACF6800513304 /* Day6_Single_Number_136.swift */,
+				C17AEF831DD214DA00F30316 /* Day6_Single_Number_136.swift */,
 			);
 			path = Day6_Single_Number_136;
 			sourceTree = "<group>";
 		};
-		C17ECC171DCACF6800513304 /* Day7_SumofTwoIntegers_371 */ = {
+		C17AEF841DD214DA00F30316 /* Day7_SumofTwoIntegers_371 */ = {
 			isa = PBXGroup;
 			children = (
-				C17ECC181DCACF6800513304 /* 371.SumofTwoIntegers.md */,
-				C17ECC191DCACF6800513304 /* Day7_SumofTwoIntegers_371.swift */,
+				C17AEF851DD214DA00F30316 /* 371.SumofTwoIntegers.md */,
+				C17AEF861DD214DA00F30316 /* Day7_SumofTwoIntegers_371.swift */,
 			);
 			path = Day7_SumofTwoIntegers_371;
 			sourceTree = "<group>";
 		};
-		C17ECC1A1DCACF6800513304 /* Week2 */ = {
+		C17AEF871DD214DA00F30316 /* Week2 */ = {
 			isa = PBXGroup;
 			children = (
-				C1F15DA31DCCA60800459378 /* Day10_RansomNote_383 */,
-				C17ECC271DCAD58500513304 /* Day9_MoveZeroes_283 */,
-				C17ECC1B1DCACF6800513304 /* Day8_AddDigits_258 */,
+				C17AEF881DD214DA00F30316 /* Day10_RansomNote_383 */,
+				C17AEF8A1DD214DA00F30316 /* Day11_IntersectionofTwoArrays_349 */,
+				C17AEF8C1DD214DA00F30316 /* Day8_AddDigits_258 */,
+				C17AEF8E1DD214DA00F30316 /* Day9_MoveZeroes_283 */,
 			);
 			path = Week2;
 			sourceTree = "<group>";
 		};
-		C17ECC1B1DCACF6800513304 /* Day8_AddDigits_258 */ = {
+		C17AEF881DD214DA00F30316 /* Day10_RansomNote_383 */ = {
 			isa = PBXGroup;
 			children = (
-				C17ECC1C1DCACF6800513304 /* Day8_AddDigits_258.swift */,
+				C17AEF891DD214DA00F30316 /* Day10_RansomNote_383.swift */,
+			);
+			path = Day10_RansomNote_383;
+			sourceTree = "<group>";
+		};
+		C17AEF8A1DD214DA00F30316 /* Day11_IntersectionofTwoArrays_349 */ = {
+			isa = PBXGroup;
+			children = (
+				C17AEF8B1DD214DA00F30316 /* Day11_IntersectionofTwoArrays_349.swift */,
+			);
+			path = Day11_IntersectionofTwoArrays_349;
+			sourceTree = "<group>";
+		};
+		C17AEF8C1DD214DA00F30316 /* Day8_AddDigits_258 */ = {
+			isa = PBXGroup;
+			children = (
+				C17AEF8D1DD214DA00F30316 /* Day8_AddDigits_258.swift */,
 			);
 			path = Day8_AddDigits_258;
 			sourceTree = "<group>";
 		};
-		C17ECC271DCAD58500513304 /* Day9_MoveZeroes_283 */ = {
+		C17AEF8E1DD214DA00F30316 /* Day9_MoveZeroes_283 */ = {
 			isa = PBXGroup;
 			children = (
-				C17ECC281DCAD5A000513304 /* Day9_MoveZeroes_283.swift */,
+				C17AEF8F1DD214DA00F30316 /* Day9_MoveZeroes_283.swift */,
 			);
 			path = Day9_MoveZeroes_283;
-			sourceTree = "<group>";
-		};
-		C1F15DA31DCCA60800459378 /* Day10_RansomNote_383 */ = {
-			isa = PBXGroup;
-			children = (
-				C1F15DA41DCCA60800459378 /* Day10_RansomNote_383.swift */,
-			);
-			path = Day10_RansomNote_383;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C13531891DB4ADDE00083CAC /* LeetCode */ = {
+		C17AEF691DD2146500F30316 /* Leetcode */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C135319C1DB4ADDE00083CAC /* Build configuration list for PBXNativeTarget "LeetCode" */;
+			buildConfigurationList = C17AEF711DD2146500F30316 /* Build configuration list for PBXNativeTarget "Leetcode" */;
 			buildPhases = (
-				C13531861DB4ADDE00083CAC /* Sources */,
-				C13531871DB4ADDE00083CAC /* Frameworks */,
-				C13531881DB4ADDE00083CAC /* Resources */,
+				C17AEF661DD2146500F30316 /* Sources */,
+				C17AEF671DD2146500F30316 /* Frameworks */,
+				C17AEF681DD2146500F30316 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = LeetCode;
-			productName = LeetCode;
-			productReference = C135318A1DB4ADDE00083CAC /* LeetCode.app */;
-			productType = "com.apple.product-type.application";
+			name = Leetcode;
+			productName = Leetcode;
+			productReference = C17AEF6A1DD2146500F30316 /* Leetcode */;
+			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C13531821DB4ADDE00083CAC /* Project object */ = {
+		C17AEF621DD2146500F30316 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = pcz;
 				TargetAttributes = {
-					C13531891DB4ADDE00083CAC = {
+					C17AEF691DD2146500F30316 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = EMYEK7J4EV;
-						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = C13531851DB4ADDE00083CAC /* Build configuration list for PBXProject "LeetCode" */;
+			buildConfigurationList = C17AEF651DD2146500F30316 /* Build configuration list for PBXProject "Leetcode" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
-			mainGroup = C13531811DB4ADDE00083CAC;
-			productRefGroup = C135318B1DB4ADDE00083CAC /* Products */;
+			mainGroup = C17AEF611DD2146500F30316;
+			productRefGroup = C17AEF6B1DD2146500F30316 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C13531891DB4ADDE00083CAC /* LeetCode */,
+				C17AEF691DD2146500F30316 /* Leetcode */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		C13531881DB4ADDE00083CAC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C13531981DB4ADDE00083CAC /* LaunchScreen.storyboard in Resources */,
-				C13531951DB4ADDE00083CAC /* Assets.xcassets in Resources */,
-				C13531931DB4ADDE00083CAC /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		C13531861DB4ADDE00083CAC /* Sources */ = {
+		C17AEF661DD2146500F30316 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1F15DA51DCCA60800459378 /* Day10_RansomNote_383.swift in Sources */,
-				C17ECC1D1DCACF6800513304 /* Day1_TwoSum_1.swift in Sources */,
-				C13531901DB4ADDE00083CAC /* ViewController.swift in Sources */,
-				C17ECC291DCAD5A000513304 /* Day9_MoveZeroes_283.swift in Sources */,
-				C17ECC241DCACF6800513304 /* 371.SumofTwoIntegers.md in Sources */,
-				C17ECC261DCACF6800513304 /* Day8_AddDigits_258.swift in Sources */,
-				C17ECC251DCACF6800513304 /* Day7_SumofTwoIntegers_371.swift in Sources */,
-				C17ECC211DCACF6800513304 /* 292. NimGame.md in Sources */,
-				C17ECC1F1DCACF6800513304 /* Day3_ReverseString_344.swift in Sources */,
-				C17ECC201DCACF6800513304 /* Day4_FizzBuzz_412.swift in Sources */,
-				C17ECC221DCACF6800513304 /* Day5_NimGame_292.swift in Sources */,
-				C135318E1DB4ADDE00083CAC /* AppDelegate.swift in Sources */,
-				C17ECC1E1DCACF6800513304 /* Day2_CountingBits_338.swift in Sources */,
-				C17ECC231DCACF6800513304 /* Day6_Single_Number_136.swift in Sources */,
+				C17AEF9A1DD214DA00F30316 /* Day11_IntersectionofTwoArrays_349.swift in Sources */,
+				C17AEF931DD214DA00F30316 /* Day4_FizzBuzz_412.swift in Sources */,
+				C17AEF991DD214DA00F30316 /* Day10_RansomNote_383.swift in Sources */,
+				C17AEF921DD214DA00F30316 /* Day3_ReverseString_344.swift in Sources */,
+				C17AEF6E1DD2146500F30316 /* main.swift in Sources */,
+				C17AEF9C1DD214DA00F30316 /* Day9_MoveZeroes_283.swift in Sources */,
+				C17AEF941DD214DA00F30316 /* 292. NimGame.md in Sources */,
+				C17AEF911DD214DA00F30316 /* Day2_CountingBits_338.swift in Sources */,
+				C17AEF961DD214DA00F30316 /* Day6_Single_Number_136.swift in Sources */,
+				C17AEF971DD214DA00F30316 /* 371.SumofTwoIntegers.md in Sources */,
+				C17AEF9B1DD214DA00F30316 /* Day8_AddDigits_258.swift in Sources */,
+				C17AEF981DD214DA00F30316 /* Day7_SumofTwoIntegers_371.swift in Sources */,
+				C17AEF901DD214DA00F30316 /* Day1_TwoSum_1.swift in Sources */,
+				C17AEF951DD214DA00F30316 /* Day5_NimGame_292.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		C13531911DB4ADDE00083CAC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C13531921DB4ADDE00083CAC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C13531961DB4ADDE00083CAC /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C13531971DB4ADDE00083CAC /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		C135319A1DB4ADDE00083CAC /* Debug */ = {
+		C17AEF6F1DD2146500F30316 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -346,7 +320,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -365,16 +339,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		C135319B1DB4ADDE00083CAC /* Release */ = {
+		C17AEF701DD2146500F30316 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -395,7 +368,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -408,38 +381,23 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				VALIDATE_PRODUCT = YES;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		C135319D1DB4ADDE00083CAC /* Debug */ = {
+		C17AEF721DD2146500F30316 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = EMYEK7J4EV;
-				INFOPLIST_FILE = LeetCode/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.pan.LeetCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		C135319E1DB4ADDE00083CAC /* Release */ = {
+		C17AEF731DD2146500F30316 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = EMYEK7J4EV;
-				INFOPLIST_FILE = LeetCode/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.pan.LeetCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -448,25 +406,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C13531851DB4ADDE00083CAC /* Build configuration list for PBXProject "LeetCode" */ = {
+		C17AEF651DD2146500F30316 /* Build configuration list for PBXProject "Leetcode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C135319A1DB4ADDE00083CAC /* Debug */,
-				C135319B1DB4ADDE00083CAC /* Release */,
+				C17AEF6F1DD2146500F30316 /* Debug */,
+				C17AEF701DD2146500F30316 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C135319C1DB4ADDE00083CAC /* Build configuration list for PBXNativeTarget "LeetCode" */ = {
+		C17AEF711DD2146500F30316 /* Build configuration list for PBXNativeTarget "Leetcode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C135319D1DB4ADDE00083CAC /* Debug */,
-				C135319E1DB4ADDE00083CAC /* Release */,
+				C17AEF721DD2146500F30316 /* Debug */,
+				C17AEF731DD2146500F30316 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C13531821DB4ADDE00083CAC /* Project object */;
+	rootObject = C17AEF621DD2146500F30316 /* Project object */;
 }
