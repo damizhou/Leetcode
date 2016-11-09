@@ -20,43 +20,35 @@ class Day13_ExcelSheetColumnTitle_168: NSObject {
     /// 26 -> Z
     /// 27 -> AA
     /// 28 -> AB
+    /// 52 -> AZ
     /// 702 -> ZZ
-    /// 解题思路
+    
+    /// 解题思路:待思考
     ///
-    /// - Parameter n: <#n description#>
-    /// - Returns: <#return value description#>
+    /// - Parameter n: 给定整数
+    /// - Returns: 返回的对应字符串
     
     private class func convertToTitle(_ n: Int) -> String {
         let str = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
         var result : String = String()
         var newN = n - 1
         var remainder = 0
-        while newN > 25 {
+        var j = 0
+        repeat {
+            newN -= j
             remainder = newN % 26
             newN /= 26
             let index = str.index(str.startIndex, offsetBy: remainder)
-            print(str[index])
+            j = 1
             result = String(str[index]) + result
-        }
-        if remainder == 25 {
-            remainder = newN - 1
-            let index = str.index(str.startIndex, offsetBy: remainder)
-            result = String(str[index]) + result
-        }else{
-            remainder = newN
-            let index = str.index(str.startIndex, offsetBy: remainder)
-            result = String(str[index]) + result
-        }
-//        
-//        print(str[index])
-        
+        } while newN > 0
         return result
     }
 
     
     
     class func solution() {
-        let n = 26
+        let n = 703
         let result = self.convertToTitle(n)
         print(result)
     }
