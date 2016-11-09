@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C10318B81DD2FB3F0068A1CC /* Day12_ExcelSheetColumnNumber_171.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10318B71DD2FB3F0068A1CC /* Day12_ExcelSheetColumnNumber_171.swift */; };
+		C10318BB1DD2FC6E0068A1CC /* Day13_ExcelSheetColumnTitle_168.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10318BA1DD2FC6E0068A1CC /* Day13_ExcelSheetColumnTitle_168.swift */; };
 		C17AEF6E1DD2146500F30316 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17AEF6D1DD2146500F30316 /* main.swift */; };
 		C17AEF901DD214DA00F30316 /* Day1_TwoSum_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17AEF781DD214DA00F30316 /* Day1_TwoSum_1.swift */; };
 		C17AEF911DD214DA00F30316 /* Day2_CountingBits_338.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17AEF7A1DD214DA00F30316 /* Day2_CountingBits_338.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C10318B71DD2FB3F0068A1CC /* Day12_ExcelSheetColumnNumber_171.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day12_ExcelSheetColumnNumber_171.swift; sourceTree = "<group>"; };
+		C10318BA1DD2FC6E0068A1CC /* Day13_ExcelSheetColumnTitle_168.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day13_ExcelSheetColumnTitle_168.swift; sourceTree = "<group>"; };
 		C17AEF6A1DD2146500F30316 /* Leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		C17AEF6D1DD2146500F30316 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C17AEF781DD214DA00F30316 /* Day1_TwoSum_1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day1_TwoSum_1.swift; sourceTree = "<group>"; };
@@ -64,6 +68,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C10318B61DD2FB3F0068A1CC /* Day12_ExcelSheetColumnNumber_171 */ = {
+			isa = PBXGroup;
+			children = (
+				C10318B71DD2FB3F0068A1CC /* Day12_ExcelSheetColumnNumber_171.swift */,
+			);
+			path = Day12_ExcelSheetColumnNumber_171;
+			sourceTree = "<group>";
+		};
+		C10318B91DD2FC6E0068A1CC /* Day13_ExcelSheetColumnTitle_168 */ = {
+			isa = PBXGroup;
+			children = (
+				C10318BA1DD2FC6E0068A1CC /* Day13_ExcelSheetColumnTitle_168.swift */,
+			);
+			path = Day13_ExcelSheetColumnTitle_168;
+			sourceTree = "<group>";
+		};
 		C17AEF611DD2146500F30316 = {
 			isa = PBXGroup;
 			children = (
@@ -181,6 +201,8 @@
 		C17AEF871DD214DA00F30316 /* Week2 */ = {
 			isa = PBXGroup;
 			children = (
+				C10318B91DD2FC6E0068A1CC /* Day13_ExcelSheetColumnTitle_168 */,
+				C10318B61DD2FB3F0068A1CC /* Day12_ExcelSheetColumnNumber_171 */,
 				C17AEF881DD214DA00F30316 /* Day10_RansomNote_383 */,
 				C17AEF8A1DD214DA00F30316 /* Day11_IntersectionofTwoArrays_349 */,
 				C17AEF8C1DD214DA00F30316 /* Day8_AddDigits_258 */,
@@ -281,12 +303,14 @@
 			files = (
 				C17AEF9A1DD214DA00F30316 /* Day11_IntersectionofTwoArrays_349.swift in Sources */,
 				C17AEF931DD214DA00F30316 /* Day4_FizzBuzz_412.swift in Sources */,
+				C10318B81DD2FB3F0068A1CC /* Day12_ExcelSheetColumnNumber_171.swift in Sources */,
 				C17AEF991DD214DA00F30316 /* Day10_RansomNote_383.swift in Sources */,
 				C17AEF921DD214DA00F30316 /* Day3_ReverseString_344.swift in Sources */,
 				C17AEF6E1DD2146500F30316 /* main.swift in Sources */,
 				C17AEF9C1DD214DA00F30316 /* Day9_MoveZeroes_283.swift in Sources */,
 				C17AEF941DD214DA00F30316 /* 292. NimGame.md in Sources */,
 				C17AEF911DD214DA00F30316 /* Day2_CountingBits_338.swift in Sources */,
+				C10318BB1DD2FC6E0068A1CC /* Day13_ExcelSheetColumnTitle_168.swift in Sources */,
 				C17AEF961DD214DA00F30316 /* Day6_Single_Number_136.swift in Sources */,
 				C17AEF971DD214DA00F30316 /* 371.SumofTwoIntegers.md in Sources */,
 				C17AEF9B1DD214DA00F30316 /* Day8_AddDigits_258.swift in Sources */,
@@ -422,6 +446,7 @@
 				C17AEF731DD2146500F30316 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
