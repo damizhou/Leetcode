@@ -24,14 +24,15 @@ class Day13_ExcelSheetColumnTitle_168: NSObject {
     /// 702 -> ZZ
     /// 703 -> AAA
     
-    /// 解题思路:待思考
+    /// 解题思路:本题可以类比为进制转换.将十进制转换为二十六进制.但是与正常的进制转换不同的是,在转换后的进制中最后一位和其他位的相同字符的含义并不一致.以A举例,当结果并非一位时,A在最后一位代表0,在其他位代表1.若结果只有一位A代表1.
+    /// 因此:在循环的时候进行标记.判断当前的位数,如果是最后一位,取余结果-1
     ///
     /// - Parameter n: 给定整数
     /// - Returns: 返回的对应字符串
     
     private class func convertToTitle(_ n: Int) -> String {
         let str = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-        var result : String = String()
+        var result = ""
         var newN = n - 1
         var remainder = 0
         var j = 0
@@ -49,7 +50,7 @@ class Day13_ExcelSheetColumnTitle_168: NSObject {
     
     
     class func solution() {
-        let n = 703
+        let n = 2
         let result = self.convertToTitle(n)
         print(result)
     }
