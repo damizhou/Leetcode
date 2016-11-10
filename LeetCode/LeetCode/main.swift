@@ -37,9 +37,10 @@ func weak2(){
 //    Day10_RansomNote_383.solution()
 //    第十一天
 //    Day11_IntersectionofTwoArrays_349.solution()
-
-    // 
-    Day13_ExcelSheetColumnTitle_168.solution()
+//    第十二天
+    Day12_ExcelSheetColumnNumber_171.solution()
+//    第十三天
+//    Day13_ExcelSheetColumnTitle_168.solution()
 }
 
 weak2()
