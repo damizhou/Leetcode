@@ -27,10 +27,10 @@ class Day14_FirstUniqueCharacterinaString_387: NSObject {
     private class func firstUniqChar(_ s: String) -> Int {
         var min = 0
         var cnts : [Int] = [Int](repeating: 0, count: 26)
-        for i in s.unicodeScalars {
+        for i in s.utf8 {
             cnts[i.hashValue - 97] += 1
         }
-        for i in s.unicodeScalars {
+        for i in s.utf8 {
             if cnts[i.hashValue - 97] == 1 {
                 return min
             }

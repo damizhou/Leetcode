@@ -34,11 +34,11 @@ class Day10_RansomNote_383: NSObject {
     /// - returns: 原料是否满足目标
     private class func canConstruct(_ ransomNote: String, _ magazine: String) -> Bool {
         var cnts : [Int] = [Int](repeating: 0, count: 26)
-        for i in magazine.unicodeScalars {
+        for i in magazine.utf8 {
             cnts[i.hashValue - 97] += 1
         }
         
-        for i in ransomNote.unicodeScalars {
+        for i in ransomNote.utf8 {
             cnts[i.hashValue - 97] -= 1
             if cnts[i.hashValue - 97] < 0{
                 return false
