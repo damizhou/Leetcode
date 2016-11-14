@@ -42,7 +42,13 @@ func weak2(){
 //    第十三天
 //    Day13_ExcelSheetColumnTitle_168.solution()
 //    第十四天
-    Day14_FirstUniqueCharacterinaString_387.solution()
+//    Day14_FirstUniqueCharacterinaString_387.solution()
 }
 
-weak2()
+/// 第三周
+func weak3(){
+//    第十五天
+    Day15_LongestPalindrome_409.solution()
+}
+
+weak3()
