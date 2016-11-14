@@ -38,9 +38,11 @@ func weak2(){
 //    第十一天
 //    Day11_IntersectionofTwoArrays_349.solution()
 //    第十二天
-    Day12_ExcelSheetColumnNumber_171.solution()
+//    Day12_ExcelSheetColumnNumber_171.solution()
 //    第十三天
 //    Day13_ExcelSheetColumnTitle_168.solution()
+//    第十四天
+    Day14_FirstUniqueCharacterinaString_387.solution()
 }
 
 weak2()

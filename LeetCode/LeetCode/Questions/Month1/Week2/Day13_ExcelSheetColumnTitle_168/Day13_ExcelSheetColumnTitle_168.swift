@@ -9,7 +9,7 @@
 import Foundation
 
 class Day13_ExcelSheetColumnTitle_168: NSObject {
-    /// Given a positive integer, return its corresponding column title as appear in an Excel sheet.
+    /// Given a positive integer, return its corresponding column title as appear in an Excel sheet.给定一个数字,输出对应的字符串.
     
     /// For example:
     
