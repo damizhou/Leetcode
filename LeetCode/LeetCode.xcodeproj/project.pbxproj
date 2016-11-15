@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C10318B81DD2FB3F0068A1CC /* Day12_ExcelSheetColumnNumber_171.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10318B71DD2FB3F0068A1CC /* Day12_ExcelSheetColumnNumber_171.swift */; };
 		C10318BB1DD2FC6E0068A1CC /* Day13_ExcelSheetColumnTitle_168.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10318BA1DD2FC6E0068A1CC /* Day13_ExcelSheetColumnTitle_168.swift */; };
+		C11581A01DDA9CE800F86E9D /* Day16_ValidAnagram_242.swift in Sources */ = {isa = PBXBuildFile; fileRef = C115819F1DDA9CE800F86E9D /* Day16_ValidAnagram_242.swift */; };
 		C11E14461DD989AD0019481D /* Day15_LongestPalindrome_409.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11E14451DD989AD0019481D /* Day15_LongestPalindrome_409.swift */; };
 		C1752FEF1DD5B91000B1504B /* Day14_FirstUniqueCharacterinaString_387.swift in Sources */ = {isa = PBXBuildFile; fileRef = C151AA041DD5A3E700E224C0 /* Day14_FirstUniqueCharacterinaString_387.swift */; };
 		C17AEF6E1DD2146500F30316 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17AEF6D1DD2146500F30316 /* main.swift */; };
@@ -42,6 +43,7 @@
 /* Begin PBXFileReference section */
 		C10318B71DD2FB3F0068A1CC /* Day12_ExcelSheetColumnNumber_171.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day12_ExcelSheetColumnNumber_171.swift; sourceTree = "<group>"; };
 		C10318BA1DD2FC6E0068A1CC /* Day13_ExcelSheetColumnTitle_168.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day13_ExcelSheetColumnTitle_168.swift; sourceTree = "<group>"; };
+		C115819F1DDA9CE800F86E9D /* Day16_ValidAnagram_242.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day16_ValidAnagram_242.swift; sourceTree = "<group>"; };
 		C11E14451DD989AD0019481D /* Day15_LongestPalindrome_409.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day15_LongestPalindrome_409.swift; sourceTree = "<group>"; };
 		C151AA041DD5A3E700E224C0 /* Day14_FirstUniqueCharacterinaString_387.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day14_FirstUniqueCharacterinaString_387.swift; sourceTree = "<group>"; };
 		C17AEF6A1DD2146500F30316 /* Leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,9 +90,18 @@
 			path = Day13_ExcelSheetColumnTitle_168;
 			sourceTree = "<group>";
 		};
+		C115819E1DDA9CE800F86E9D /* Day16_ValidAnagram_242 */ = {
+			isa = PBXGroup;
+			children = (
+				C115819F1DDA9CE800F86E9D /* Day16_ValidAnagram_242.swift */,
+			);
+			path = Day16_ValidAnagram_242;
+			sourceTree = "<group>";
+		};
 		C11E14431DD989AD0019481D /* Weak3 */ = {
 			isa = PBXGroup;
 			children = (
+				C115819E1DDA9CE800F86E9D /* Day16_ValidAnagram_242 */,
 				C11E14441DD989AD0019481D /* Day15_LongestPalindrome_409 */,
 			);
 			path = Weak3;
@@ -337,6 +348,7 @@
 				C17AEF991DD214DA00F30316 /* Day10_RansomNote_383.swift in Sources */,
 				C17AEF921DD214DA00F30316 /* Day3_ReverseString_344.swift in Sources */,
 				C17AEF6E1DD2146500F30316 /* main.swift in Sources */,
+				C11581A01DDA9CE800F86E9D /* Day16_ValidAnagram_242.swift in Sources */,
 				C17AEF9C1DD214DA00F30316 /* Day9_MoveZeroes_283.swift in Sources */,
 				C17AEF941DD214DA00F30316 /* 292. NimGame.md in Sources */,
 				C17AEF911DD214DA00F30316 /* Day2_CountingBits_338.swift in Sources */,
