@@ -51,7 +51,9 @@ func weak3(){
 //    Day15_LongestPalindrome_409.solution()
     
 //    第十六天
-    Day16_ValidAnagram_242.solution()
+//    Day16_ValidAnagram_242.solution()
+//    第十七天
+    Day17_MajorityElement_169.solution()
 }
 //weak1()
 //weak2()
