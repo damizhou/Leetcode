@@ -49,12 +49,16 @@ func weak2(){
 func weak3(){
 //    第十五天
 //    Day15_LongestPalindrome_409.solution()
-    
 //    第十六天
 //    Day16_ValidAnagram_242.solution()
 //    第十七天
-    Day17_MajorityElement_169.solution()
+//    Day17_MajorityElement_169.solution()
+//    第十八天
+    Day18_ContainsDuplicate_217.solution()
 }
+
+
+
 //weak1()
 //weak2()
 weak3()
