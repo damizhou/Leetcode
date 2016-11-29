@@ -30,7 +30,7 @@ class Day6_Single_Number_136: NSObject {
     class func solution() {
         
         let a = [1,1,2,2,3,4,4,5,5]
-        let c = self.singleNumber(a);
-        print(c)
+        let result = self.singleNumber(a);
+        print("\(self .className())`s result is \(result)")
     }
 }

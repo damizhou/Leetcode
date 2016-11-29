@@ -58,7 +58,7 @@ class Day4_FizzBuzz_412: NSObject {
     class func solution() {
         
         let a = 32
-        let c = self.fizzBuzz(a);
-        print(c)
+        let result = self.fizzBuzz(a);
+        print("\(self .className())`s result is \(result)")
     }
 }

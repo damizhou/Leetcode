@@ -60,6 +60,6 @@ class Day15_LongestPalindrome_409: NSObject {
     class func solution() {
         let s = "AAA"
         let result = self.longestPalindrome(s)
-        print(result)
+        print("\(self .className())`s result is \(result)")
     }
 }

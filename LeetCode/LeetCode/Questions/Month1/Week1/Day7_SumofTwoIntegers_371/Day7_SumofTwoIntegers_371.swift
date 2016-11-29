@@ -27,7 +27,7 @@ class Day7_SumofTwoIntegers_371: NSObject {
         
         let a = 3
         let b = 4
-        let c = self.getSum(a,b);
-        print(c)
+        let result = self.getSum(a,b);
+        print("\(self .className())`s result is \(result)")
     }
 }

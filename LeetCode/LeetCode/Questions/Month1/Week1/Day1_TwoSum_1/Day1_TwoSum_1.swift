@@ -49,6 +49,6 @@ class Day1_TwoSum_1: NSObject {
         let nums = [3,11,2,4,1,5,6,7,8,9,10]
         let target = 21
         let result = self.twoSum(nums, target)
-        print(result)
+        print("\(self .className())`s result is \(result)")
     }
 }

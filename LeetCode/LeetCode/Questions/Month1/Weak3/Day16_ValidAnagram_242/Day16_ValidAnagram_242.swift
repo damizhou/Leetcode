@@ -48,6 +48,6 @@ class Day16_ValidAnagram_242: NSObject {
         let s = "asdaaa"
         let t = "dsa"
         let result = self.isAnagram(s,t)
-        print(result)
+        print("\(self .className())`s result is \(result)")
     }
 }

@@ -61,6 +61,6 @@ class Day11_IntersectionofTwoArrays_349: NSObject {
         let nums1 = [1,2,2,1]
         let nums2 = [2,2]
         let result = self.intersection(nums1, nums2)
-        print(result)
+        print("\(self .className())`s result is \(result)")
     }
 }

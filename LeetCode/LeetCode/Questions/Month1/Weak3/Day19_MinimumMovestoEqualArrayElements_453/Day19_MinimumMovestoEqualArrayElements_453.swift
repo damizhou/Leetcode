@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Day18_ContainsDuplicate_217 : NSObject {
+class Day19_MinimumMovestoEqualArrayElements_453 : NSObject {
     /// Given an array of integers, find if the array contains any duplicates. Your function should return true if any value appears at least twice in the array, and it should return false if every element is distinct.给出一个整数的数组,判断其中有没有重复的元素,有就返回true,没有就返回false.
     
     /// 解题思路: hash表
@@ -16,21 +16,23 @@ class Day18_ContainsDuplicate_217 : NSObject {
     /// - Parameter nums: 给定整数数组
     /// - Returns: 是否存在相同元素
     
-    private class func containsDuplicate(_ nums: [Int]) -> Bool {
-        var hash: [Int : Int] = [:]
-        
-        for (i, j) in nums.enumerated() {
-            if hash[j] != nil{
-                return true
+    private class func minMoves(_ nums: [Int]) -> Int {
+        var min = nums[0]
+        var result = 0
+        for i in nums {
+            if i < min {
+                min = i
             }
-            hash[j] = i
         }
-        return false
+        for i in nums{
+            result += (i - min)
+        }
+        return result
     }
     
     class func solution() {
-        let s = [3,3,4];
-        let result = self.containsDuplicate(s)
+        let s = [1,3,2];
+        let result = self.minMoves(s)
         print("\(self .className())`s result is \(result)")
     }
 }

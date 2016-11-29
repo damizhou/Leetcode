@@ -34,6 +34,6 @@ class Day9_MoveZeroes_283: NSObject {
     class func solution() {
         var nums = [0,1,0,0,2,0,0,0,3,10,0,1,0,9]
         moveZeroes(&nums)
-        print(nums)
+        print("\(self .className())`s result is \(nums)")
     }
 }

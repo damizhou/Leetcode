@@ -50,6 +50,6 @@ class Day8_AddDigits_258: NSObject {
     class func solution() {
         let nums = 0
         let result = self.addDigits(nums)
-        print(result)
+        print("\(self .className())`s result is \(result)")
     }
 }

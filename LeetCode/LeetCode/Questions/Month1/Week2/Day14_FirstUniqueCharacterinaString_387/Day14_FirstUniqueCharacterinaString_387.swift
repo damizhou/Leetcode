@@ -44,6 +44,6 @@ class Day14_FirstUniqueCharacterinaString_387: NSObject {
     class func solution() {
         let s = "cc"
         let result = self.firstUniqChar(s)
-        print(result)
+        print("\(self .className())`s result is \(result)")
     }
 }

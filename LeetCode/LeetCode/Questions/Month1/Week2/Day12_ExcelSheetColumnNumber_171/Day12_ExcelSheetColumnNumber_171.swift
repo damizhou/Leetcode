@@ -51,6 +51,6 @@ class Day12_ExcelSheetColumnNumber_171: NSObject {
     class func solution() {
         let s = "A"
         let result = self.titleToNumber(s)
-        print(result)
+        print("\(self .className())`s result is \(result)")
     }
 }

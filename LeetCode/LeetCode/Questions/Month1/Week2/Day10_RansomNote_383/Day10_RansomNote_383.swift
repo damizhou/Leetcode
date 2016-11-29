@@ -51,6 +51,6 @@ class Day10_RansomNote_383: NSObject {
         let ransomNote = "aab"
         let magazine = "aabbb"
         let result = self.canConstruct(ransomNote, magazine)
-        print(result)
+        print("\(self .className())`s result is \(result)")
     }
 }

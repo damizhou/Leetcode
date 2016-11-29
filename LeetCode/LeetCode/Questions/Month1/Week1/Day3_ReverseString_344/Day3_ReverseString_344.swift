@@ -24,7 +24,7 @@ class Day3_ReverseString_344: NSObject {
     class func solution() {
         
         let a = "1234567"
-        let c = self.reverseString(s: a);
-        print(c)
+        let result = self.reverseString(s: a);
+        print("\(self .className())`s result is \(result)")
     }
 }

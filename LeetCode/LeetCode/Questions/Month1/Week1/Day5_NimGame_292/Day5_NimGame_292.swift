@@ -18,7 +18,7 @@ class Day5_NimGame_292: NSObject {
     class func solution() {
         
         let a = 32
-        let c = self.canWinNim(a);
-        print(c)
+        let result = self.canWinNim(a);
+        print("\(self .className())`s result is \(result)")
     }
 }

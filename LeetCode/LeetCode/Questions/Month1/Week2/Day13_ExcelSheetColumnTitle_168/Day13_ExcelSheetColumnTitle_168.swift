@@ -52,6 +52,6 @@ class Day13_ExcelSheetColumnTitle_168: NSObject {
     class func solution() {
         let n = 2
         let result = self.convertToTitle(n)
-        print(result)
+        print("\(self .className())`s result is \(result)")
     }
 }

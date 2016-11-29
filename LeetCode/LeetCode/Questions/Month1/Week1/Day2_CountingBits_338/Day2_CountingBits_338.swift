@@ -29,7 +29,7 @@ class Day2_CountingBits_338: NSObject {
     class func solution() {
         
         let a = 32
-        let c = self.countBits(a);
-        print(c)
+        let result = self.countBits(a);
+        print("\(self .className())`s result is \(result)")
     }
 }

@@ -29,32 +29,34 @@ func week1() {
 
 /// 第二周
 func weak2(){
-//    第八天
+
 //    Day8_AddDigits_258.solution()
-//    第九天
+
 //    Day9_MoveZeroes_283.solution()
-//    第十天
+
 //    Day10_RansomNote_383.solution()
-//    第十一天
+
 //    Day11_IntersectionofTwoArrays_349.solution()
-//    第十二天
+
 //    Day12_ExcelSheetColumnNumber_171.solution()
-//    第十三天
+
 //    Day13_ExcelSheetColumnTitle_168.solution()
-//    第十四天
-    Day14_FirstUniqueCharacterinaString_387.solution()
+
+//    Day14_FirstUniqueCharacterinaString_387.solution()
 }
 
 /// 第三周
 func weak3(){
-//    第十五天
+
 //    Day15_LongestPalindrome_409.solution()
-//    第十六天
+
 //    Day16_ValidAnagram_242.solution()
-//    第十七天
+
 //    Day17_MajorityElement_169.solution()
-//    第十八天
-    Day18_ContainsDuplicate_217.solution()
+
+//    Day18_ContainsDuplicate_217.solution()
+    
+    Day19_MinimumMovestoEqualArrayElements_453.solution()
 }
 
 

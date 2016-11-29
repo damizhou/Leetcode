@@ -42,6 +42,6 @@ class Day17_MajorityElement_169: NSObject {
     class func solution() {
         let s = [3,3,4];
         let result = self.majorityElement(s)
-        print(result)
+        print("\(self .className())`s result is \(result)")
     }
 }
