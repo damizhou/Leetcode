@@ -56,7 +56,9 @@ func weak3(){
 
 //    Day18_ContainsDuplicate_217.solution()
     
-    Day19_MinimumMovestoEqualArrayElements_453.solution()
+//    Day19_MinimumMovestoEqualArrayElements_453.solution()
+    
+    Day20_AssignCookies_455.solution()
 }
 
 

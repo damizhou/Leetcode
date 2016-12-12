@@ -29,6 +29,7 @@
 		C18AC9CA1DED28FF00A11440 /* Day19_MinimumMovestoEqualArrayElements_453.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18AC9C91DED28FF00A11440 /* Day19_MinimumMovestoEqualArrayElements_453.swift */; };
 		C19ECDA31DEC0C3500125B64 /* Day18_ContainsDuplicate_217 .swift in Sources */ = {isa = PBXBuildFile; fileRef = C19ECDA21DEC0C3500125B64 /* Day18_ContainsDuplicate_217 .swift */; };
 		C1D233061DE6CE6900BD1C62 /* Day17_MajorityElement_169.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D233051DE6CE6900BD1C62 /* Day17_MajorityElement_169.swift */; };
+		C1EAC8A61DEE735400C5D115 /* Day20_AssignCookies_455.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EAC8A51DEE735400C5D115 /* Day20_AssignCookies_455.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -67,6 +68,7 @@
 		C18AC9C91DED28FF00A11440 /* Day19_MinimumMovestoEqualArrayElements_453.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day19_MinimumMovestoEqualArrayElements_453.swift; sourceTree = "<group>"; };
 		C19ECDA21DEC0C3500125B64 /* Day18_ContainsDuplicate_217 .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Day18_ContainsDuplicate_217 .swift"; sourceTree = "<group>"; };
 		C1D233051DE6CE6900BD1C62 /* Day17_MajorityElement_169.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day17_MajorityElement_169.swift; sourceTree = "<group>"; };
+		C1EAC8A51DEE735400C5D115 /* Day20_AssignCookies_455.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day20_AssignCookies_455.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		C11E14431DD989AD0019481D /* Weak3 */ = {
 			isa = PBXGroup;
 			children = (
+				C1EAC8A41DEE735400C5D115 /* Day20_AssignCookies_455 */,
 				C18AC9C81DED28FF00A11440 /* Day19_MinimumMovestoEqualArrayElements_453 */,
 				C19ECDA11DEC0C3500125B64 /* Day18_ContainsDuplicate_217  */,
 				C1D233041DE6CE6900BD1C62 /* Day17_MajorityElement_169 */,
@@ -317,6 +320,14 @@
 			path = Day17_MajorityElement_169;
 			sourceTree = "<group>";
 		};
+		C1EAC8A41DEE735400C5D115 /* Day20_AssignCookies_455 */ = {
+			isa = PBXGroup;
+			children = (
+				C1EAC8A51DEE735400C5D115 /* Day20_AssignCookies_455.swift */,
+			);
+			path = Day20_AssignCookies_455;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -384,6 +395,7 @@
 				C17AEF921DD214DA00F30316 /* Day3_ReverseString_344.swift in Sources */,
 				C17AEF6E1DD2146500F30316 /* main.swift in Sources */,
 				C11581A01DDA9CE800F86E9D /* Day16_ValidAnagram_242.swift in Sources */,
+				C1EAC8A61DEE735400C5D115 /* Day20_AssignCookies_455.swift in Sources */,
 				C17AEF9C1DD214DA00F30316 /* Day9_MoveZeroes_283.swift in Sources */,
 				C17AEF941DD214DA00F30316 /* 292. NimGame.md in Sources */,
 				C17AEF911DD214DA00F30316 /* Day2_CountingBits_338.swift in Sources */,
