@@ -58,7 +58,9 @@ func weak3(){
     
 //    Day19_MinimumMovestoEqualArrayElements_453.solution()
     
-    Day20_AssignCookies_455.solution()
+//    Day20_AssignCookies_455.solution()
+    
+    Day21_IslandPerimeter_463.solution()
 }
 
 
