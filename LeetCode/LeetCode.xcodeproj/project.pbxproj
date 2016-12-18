@@ -26,6 +26,7 @@
 		C17AEF9A1DD214DA00F30316 /* Day11_IntersectionofTwoArrays_349.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17AEF8B1DD214DA00F30316 /* Day11_IntersectionofTwoArrays_349.swift */; };
 		C17AEF9B1DD214DA00F30316 /* Day8_AddDigits_258.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17AEF8D1DD214DA00F30316 /* Day8_AddDigits_258.swift */; };
 		C17AEF9C1DD214DA00F30316 /* Day9_MoveZeroes_283.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17AEF8F1DD214DA00F30316 /* Day9_MoveZeroes_283.swift */; };
+		C182FB131E06B2F300D49F96 /* Day22_IntersectionofTwoArraysII_350.swift in Sources */ = {isa = PBXBuildFile; fileRef = C182FB121E06B2F300D49F96 /* Day22_IntersectionofTwoArraysII_350.swift */; };
 		C18AC9CA1DED28FF00A11440 /* Day19_MinimumMovestoEqualArrayElements_453.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18AC9C91DED28FF00A11440 /* Day19_MinimumMovestoEqualArrayElements_453.swift */; };
 		C19ECDA31DEC0C3500125B64 /* Day18_ContainsDuplicate_217 .swift in Sources */ = {isa = PBXBuildFile; fileRef = C19ECDA21DEC0C3500125B64 /* Day18_ContainsDuplicate_217 .swift */; };
 		C1A1BA7C1E017720007D3482 /* Day21_IslandPerimeter_463.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A1BA7B1E017720007D3482 /* Day21_IslandPerimeter_463.swift */; };
@@ -66,6 +67,7 @@
 		C17AEF8B1DD214DA00F30316 /* Day11_IntersectionofTwoArrays_349.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day11_IntersectionofTwoArrays_349.swift; sourceTree = "<group>"; };
 		C17AEF8D1DD214DA00F30316 /* Day8_AddDigits_258.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day8_AddDigits_258.swift; sourceTree = "<group>"; };
 		C17AEF8F1DD214DA00F30316 /* Day9_MoveZeroes_283.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day9_MoveZeroes_283.swift; sourceTree = "<group>"; };
+		C182FB121E06B2F300D49F96 /* Day22_IntersectionofTwoArraysII_350.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day22_IntersectionofTwoArraysII_350.swift; sourceTree = "<group>"; };
 		C18AC9C91DED28FF00A11440 /* Day19_MinimumMovestoEqualArrayElements_453.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day19_MinimumMovestoEqualArrayElements_453.swift; sourceTree = "<group>"; };
 		C19ECDA21DEC0C3500125B64 /* Day18_ContainsDuplicate_217 .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Day18_ContainsDuplicate_217 .swift"; sourceTree = "<group>"; };
 		C1A1BA7B1E017720007D3482 /* Day21_IslandPerimeter_463.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day21_IslandPerimeter_463.swift; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 		C17AEF751DD214DA00F30316 /* Month1 */ = {
 			isa = PBXGroup;
 			children = (
+				C182FB101E06B2F300D49F96 /* Weak4 */,
 				C11E14431DD989AD0019481D /* Weak3 */,
 				C17AEF871DD214DA00F30316 /* Week2 */,
 				C17AEF761DD214DA00F30316 /* Week1 */,
@@ -299,6 +302,22 @@
 			path = Day9_MoveZeroes_283;
 			sourceTree = "<group>";
 		};
+		C182FB101E06B2F300D49F96 /* Weak4 */ = {
+			isa = PBXGroup;
+			children = (
+				C182FB111E06B2F300D49F96 /* Day22_IntersectionofTwoArraysII_350 */,
+			);
+			path = Weak4;
+			sourceTree = "<group>";
+		};
+		C182FB111E06B2F300D49F96 /* Day22_IntersectionofTwoArraysII_350 */ = {
+			isa = PBXGroup;
+			children = (
+				C182FB121E06B2F300D49F96 /* Day22_IntersectionofTwoArraysII_350.swift */,
+			);
+			path = Day22_IntersectionofTwoArraysII_350;
+			sourceTree = "<group>";
+		};
 		C18AC9C81DED28FF00A11440 /* Day19_MinimumMovestoEqualArrayElements_453 */ = {
 			isa = PBXGroup;
 			children = (
@@ -412,6 +431,7 @@
 				C17AEF911DD214DA00F30316 /* Day2_CountingBits_338.swift in Sources */,
 				C10318BB1DD2FC6E0068A1CC /* Day13_ExcelSheetColumnTitle_168.swift in Sources */,
 				C1A1BA7C1E017720007D3482 /* Day21_IslandPerimeter_463.swift in Sources */,
+				C182FB131E06B2F300D49F96 /* Day22_IntersectionofTwoArraysII_350.swift in Sources */,
 				C1D233061DE6CE6900BD1C62 /* Day17_MajorityElement_169.swift in Sources */,
 				C17AEF961DD214DA00F30316 /* Day6_Single_Number_136.swift in Sources */,
 				C17AEF971DD214DA00F30316 /* 371.SumofTwoIntegers.md in Sources */,

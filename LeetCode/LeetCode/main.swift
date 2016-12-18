@@ -60,11 +60,17 @@ func weak3(){
     
 //    Day20_AssignCookies_455.solution()
     
-    Day21_IslandPerimeter_463.solution()
+//    Day21_IslandPerimeter_463.solution()
+}
+
+/// 第四周
+func weak4(){
+    Day22_IntersectionofTwoArraysII_350.solution()
 }
 
 
 
 //weak1()
 //weak2()
-weak3()
+//weak3()
+weak4()
