@@ -65,7 +65,9 @@ func weak3(){
 
 /// 第四周
 func weak4(){
-    Day22_IntersectionofTwoArraysII_350.solution()
+//    Day22_IntersectionofTwoArraysII_350.solution()
+    
+    Day23_FindAllNumbersDisappearedinanArray_448.solution()
 }
 
 

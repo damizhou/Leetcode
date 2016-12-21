@@ -11,6 +11,7 @@
 		C10318BB1DD2FC6E0068A1CC /* Day13_ExcelSheetColumnTitle_168.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10318BA1DD2FC6E0068A1CC /* Day13_ExcelSheetColumnTitle_168.swift */; };
 		C11581A01DDA9CE800F86E9D /* Day16_ValidAnagram_242.swift in Sources */ = {isa = PBXBuildFile; fileRef = C115819F1DDA9CE800F86E9D /* Day16_ValidAnagram_242.swift */; };
 		C11E14461DD989AD0019481D /* Day15_LongestPalindrome_409.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11E14451DD989AD0019481D /* Day15_LongestPalindrome_409.swift */; };
+		C122F12D1E0A748500150417 /* Day23_FindAllNumbersDisappearedinanArray_448.swift in Sources */ = {isa = PBXBuildFile; fileRef = C122F12C1E0A748500150417 /* Day23_FindAllNumbersDisappearedinanArray_448.swift */; };
 		C1752FEF1DD5B91000B1504B /* Day14_FirstUniqueCharacterinaString_387.swift in Sources */ = {isa = PBXBuildFile; fileRef = C151AA041DD5A3E700E224C0 /* Day14_FirstUniqueCharacterinaString_387.swift */; };
 		C17AEF6E1DD2146500F30316 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17AEF6D1DD2146500F30316 /* main.swift */; };
 		C17AEF901DD214DA00F30316 /* Day1_TwoSum_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17AEF781DD214DA00F30316 /* Day1_TwoSum_1.swift */; };
@@ -51,6 +52,7 @@
 		C10318BA1DD2FC6E0068A1CC /* Day13_ExcelSheetColumnTitle_168.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day13_ExcelSheetColumnTitle_168.swift; sourceTree = "<group>"; };
 		C115819F1DDA9CE800F86E9D /* Day16_ValidAnagram_242.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day16_ValidAnagram_242.swift; sourceTree = "<group>"; };
 		C11E14451DD989AD0019481D /* Day15_LongestPalindrome_409.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day15_LongestPalindrome_409.swift; sourceTree = "<group>"; };
+		C122F12C1E0A748500150417 /* Day23_FindAllNumbersDisappearedinanArray_448.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day23_FindAllNumbersDisappearedinanArray_448.swift; sourceTree = "<group>"; };
 		C151AA041DD5A3E700E224C0 /* Day14_FirstUniqueCharacterinaString_387.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day14_FirstUniqueCharacterinaString_387.swift; sourceTree = "<group>"; };
 		C17AEF6A1DD2146500F30316 /* Leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		C17AEF6D1DD2146500F30316 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -130,6 +132,14 @@
 				C11E14451DD989AD0019481D /* Day15_LongestPalindrome_409.swift */,
 			);
 			path = Day15_LongestPalindrome_409;
+			sourceTree = "<group>";
+		};
+		C122F12B1E0A748500150417 /* Day23_FindAllNumbersDisappearedinanArray_448 */ = {
+			isa = PBXGroup;
+			children = (
+				C122F12C1E0A748500150417 /* Day23_FindAllNumbersDisappearedinanArray_448.swift */,
+			);
+			path = Day23_FindAllNumbersDisappearedinanArray_448;
 			sourceTree = "<group>";
 		};
 		C151AA031DD5A3E700E224C0 /* Day14_FirstUniqueCharacterinaString_387 */ = {
@@ -305,6 +315,7 @@
 		C182FB101E06B2F300D49F96 /* Weak4 */ = {
 			isa = PBXGroup;
 			children = (
+				C122F12B1E0A748500150417 /* Day23_FindAllNumbersDisappearedinanArray_448 */,
 				C182FB111E06B2F300D49F96 /* Day22_IntersectionofTwoArraysII_350 */,
 			);
 			path = Weak4;
@@ -439,6 +450,7 @@
 				C17AEF9B1DD214DA00F30316 /* Day8_AddDigits_258.swift in Sources */,
 				C17AEF981DD214DA00F30316 /* Day7_SumofTwoIntegers_371.swift in Sources */,
 				C1752FEF1DD5B91000B1504B /* Day14_FirstUniqueCharacterinaString_387.swift in Sources */,
+				C122F12D1E0A748500150417 /* Day23_FindAllNumbersDisappearedinanArray_448.swift in Sources */,
 				C17AEF901DD214DA00F30316 /* Day1_TwoSum_1.swift in Sources */,
 				C17AEF951DD214DA00F30316 /* Day5_NimGame_292.swift in Sources */,
 			);
