@@ -67,7 +67,9 @@ func weak3(){
 func weak4(){
 //    Day22_IntersectionofTwoArraysII_350.solution()
     
-    Day23_FindAllNumbersDisappearedinanArray_448.solution()
+//    Day23_FindAllNumbersDisappearedinanArray_448.solution()
+    
+    Day24_HammingDistance_461.solution()
 }
 
 
