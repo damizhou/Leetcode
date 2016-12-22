@@ -30,31 +30,26 @@ class Day24_HammingDistance_461 : NSObject {
     
     /// The above arrows point to positions where the corresponding bits are different.
 
-    /// 解题思路:递归两个数的每一个二进制位,相同位结果不变,不同位结果+1
+    /// 解题思路:递归两个数的每一个二进制位,直到商都为0.每一次递归余数不同,结果+1
     
     private class func hammingDistance(_ x: Int, _ y: Int) -> Int {
         var result = 0
         var newX = x
         var newY = y
         while newX != 0 || newY != 0 {
-            result += dealNumber(newX, newY)
+            if newX % 2 != newY % 2 {
+                result += 1
+            }
             newX /= 2
             newY /= 2
         }
         return result
     }
     
-    class func dealNumber(_ x: Int, _ y: Int) -> Int{
-        if x % 2 == y % 2 {
-            return 0
-        }else{
-            return 1
-        }
-    }
     
     class func solution() {
-        let x = 3
-        let y = 1
+        let x = 1
+        let y = 4
         let result = self.hammingDistance(x,y)
         print("\(self .className())`s result is \(result)")
     }
