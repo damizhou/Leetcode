@@ -71,7 +71,9 @@ func weak4(){
     
 //    Day24_HammingDistance_461.solution()
     
-    Day25_BinaryWatch_401.solution()
+//    Day25_BinaryWatch_401.solution()
+    
+    Day27_AddStrings_415.solution();
 }
 
 
