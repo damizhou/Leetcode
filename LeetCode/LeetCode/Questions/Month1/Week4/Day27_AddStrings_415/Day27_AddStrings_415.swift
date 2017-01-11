@@ -9,42 +9,40 @@
 import Foundation
 
 class Day27_AddStrings_415 : NSObject {
-    /// A binary watch has 4 LEDs on the top which represent the hours (0-11), and the 6 LEDs on the bottom represent the minutes (0-59).
-    /// Each LED represents a zero or one, with the least significant bit on the right.
-    /// Given a non-negative integer n which represents the number of LEDs that are currently on, return all possible times the watch could represent.
+    /// Given two non-negative integers num1 and num2 represented as string, return the sum of num1 and num2.题目大意：将两个用字符串表示的数字相加
     
-    /// 题目大意：
-    /// 一个二进制手表顶端有4盏LED灯表示小时(0-11)，底部有6盏LED灯表示分钟(0-59)。
-    /// 每一盏LED灯表示一个0或1，最右端为最低位。
-    /// 给定一个非负整数n表示当前燃亮的LED灯数，返回所有可能表示的时间。
+    /// Note:
     
-    /// Example:
-    /// Input: n = 1
-    /// Return: ["1:00", "2:00", "4:00", "8:00", "0:01", "0:02", "0:04", "0:08", "0:16", "0:32"]
+    /// The length of both num1 and num2 is < 5100. num1和num2的长度不超过5100
+    /// Both num1 and num2 contains only digits 0-9. num1和num2只包含0-9这10个数字
+    /// Both num1 and num2 does not contain any leading zero.num1和num2不包含前导0
+    /// You must not use any built-in BigInteger library or convert the inputs to integer directly.你不能使用内置的BigInteger库，也不能直接把输入转换为整数。
 
-    /// 解题思路:枚举小时h和分钟m，然后判断二进制1的个数是否等于num
+    /// 解题思路:模拟十进制的大数加法,注意进位
     
     private class func addStrings(_ num1: String, _ num2: String) -> String {
-        var i = num1.characters.count - 1
-        var j = num2.characters.count - 1
-        var carry = 0
+        let num1Chars = Array(num1.characters.reversed())
+        let num2Chars = Array(num2.characters.reversed())
+        var i = 0, j = 0, sum = 0, carry = 0
         var res = ""
-        while(i >= 0 || j >= 0 || carry != 0){
-            var sum = 0
-            if i >= 0 {
-                sum = Int(String(num1[num1.index(num1.startIndex, offsetBy: i)]))!
-                i -= 1;
+        
+        while i < num1Chars.count || j < num2Chars.count || carry != 0 {
+            sum = carry
+            if i < num1Chars.count {
+                sum += Int(String(num1Chars[i]))!
+                i += 1
             }
-            if j >= 0 {
-                sum += Int(String(num2[num2.index(num2.startIndex, offsetBy: j)]))!
-                j -= 1;
+            if j < num2Chars.count {
+                sum += Int(String(num2Chars[j]))!
+                j += 1
             }
-            sum += carry;
-            carry = sum / 10;
-            sum = sum % 10;
-            res = "\(sum)" + res;
+            carry = sum / 10
+            sum = sum % 10
+            
+            res.append(String(sum))
         }
-        return res;
+        
+        return String(res.characters.reversed())
     }
     
     class func solution() {
