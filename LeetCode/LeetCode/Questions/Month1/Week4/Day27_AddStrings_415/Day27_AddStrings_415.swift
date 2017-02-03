@@ -50,8 +50,5 @@ class Day27_AddStrings_415 : NSObject {
         let num2 = "1111"
         let result = self.addStrings(num1,num2)
         print("\(self .className())`s result is \(result)")
-        
-        
-        
     }
 }
