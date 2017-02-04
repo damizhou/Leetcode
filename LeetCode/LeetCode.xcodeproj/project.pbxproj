@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C14C6DD91E447F180056E1BD /* Day28_NumberComplement_476.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14C6DD81E447F180056E1BD /* Day28_NumberComplement_476.swift */; };
+		C14C6DDD1E45CBC20056E1BD /* Day29_ConstructtheRectangle_492.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14C6DDC1E45CBC20056E1BD /* Day29_ConstructtheRectangle_492.swift */; };
 		C14D4EB91E10FF7700A076E1 /* Day25_BinaryWatch_401.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14D4EB81E10FF7700A076E1 /* Day25_BinaryWatch_401.swift */; };
 		C17AEF6E1DD2146500F30316 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17AEF6D1DD2146500F30316 /* main.swift */; };
 		C1A229711E0BC7A400D67B62 /* Day1_TwoSum_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A2293D1E0BC7A400D67B62 /* Day1_TwoSum_1.swift */; };
@@ -54,6 +55,7 @@
 
 /* Begin PBXFileReference section */
 		C14C6DD81E447F180056E1BD /* Day28_NumberComplement_476.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day28_NumberComplement_476.swift; sourceTree = "<group>"; };
+		C14C6DDC1E45CBC20056E1BD /* Day29_ConstructtheRectangle_492.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day29_ConstructtheRectangle_492.swift; sourceTree = "<group>"; };
 		C14D4EB81E10FF7700A076E1 /* Day25_BinaryWatch_401.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day25_BinaryWatch_401.swift; sourceTree = "<group>"; };
 		C17AEF6A1DD2146500F30316 /* Leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		C17AEF6D1DD2146500F30316 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -106,6 +108,22 @@
 			path = Day28_NumberComplement_476;
 			sourceTree = "<group>";
 		};
+		C14C6DDA1E45CBC20056E1BD /* Week5 */ = {
+			isa = PBXGroup;
+			children = (
+				C14C6DDB1E45CBC20056E1BD /* Day29_ConstructtheRectangle_492 */,
+			);
+			path = Week5;
+			sourceTree = "<group>";
+		};
+		C14C6DDB1E45CBC20056E1BD /* Day29_ConstructtheRectangle_492 */ = {
+			isa = PBXGroup;
+			children = (
+				C14C6DDC1E45CBC20056E1BD /* Day29_ConstructtheRectangle_492.swift */,
+			);
+			path = Day29_ConstructtheRectangle_492;
+			sourceTree = "<group>";
+		};
 		C14D4EB71E10FF7700A076E1 /* Day25_BinaryWatch_401 */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,6 +172,7 @@
 				C1A2294C1E0BC7A400D67B62 /* Week2 */,
 				C1A2295B1E0BC7A400D67B62 /* Week3 */,
 				C1A2296A1E0BC7A400D67B62 /* Week4 */,
+				C14C6DDA1E45CBC20056E1BD /* Week5 */,
 			);
 			path = Month1;
 			sourceTree = "<group>";
@@ -483,6 +502,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1A229841E0BC7A400D67B62 /* Day18_ContainsDuplicate_217 .swift in Sources */,
+				C14C6DDD1E45CBC20056E1BD /* Day29_ConstructtheRectangle_492.swift in Sources */,
 				C1BA82D01E238A10005680EE /* Day26_NumberofBoomerangs_447.swift in Sources */,
 				C1A2297B1E0BC7A400D67B62 /* Day11_IntersectionofTwoArrays_349.swift in Sources */,
 				C1A229741E0BC7A400D67B62 /* Day4_FizzBuzz_412.swift in Sources */,
