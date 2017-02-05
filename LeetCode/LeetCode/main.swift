@@ -75,15 +75,15 @@ func weak4(){
     
 //    Day27_AddStrings_415.solution()
     
-//    Day28_NumberComplement_476.solution()
+    Day28_NumberComplement_476.solution()
 }
 
 func weak5(){
-    Day29_ConstructtheRectangle_492.solution()
+//    Day29_ConstructtheRectangle_492.solution()
 }
 
 //weak1()
 //weak2()
 //weak3()
-//weak4()
-weak5()
+weak4()
+//weak5()

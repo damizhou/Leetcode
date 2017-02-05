@@ -18,11 +18,15 @@ class Day28_NumberComplement_476 : NSObject {
     /// 解题思路:按二进制位反转
     
     private class func findComplement(_ num: Int) -> Int {
-        var mask = ~0
+        // 以5为例,8个二进制位 5 = 0000 0101
+        var mask = ~0 // mask = 1111 1111
+        
         while (num & mask != 0){
             mask <<= 1
-        }
-        return ~mask & ~num
+        }// mask = 1111 1000
+        // ~mask = 0000 0111
+        //   ~5  = 1111 1010
+        return ~mask & ~num // ~mask & ~5 = 0000 0010
     }
     
     class func solution() {
