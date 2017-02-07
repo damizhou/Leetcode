@@ -19,11 +19,13 @@ class Day30_MissingNumber_268 : NSObject {
     /// 你的算法应该满足线性时间复杂度。你可以只使用常数空间复杂度完成此题吗？
     
     private class func missingNumber(_ nums: [Int]) -> Int {
-        var sum = 0
-        for i in nums {
-            sum += i
-        }
-        return nums.count * (nums.count + 1) / 2 - sum
+//        var sum = 0
+//        for i in nums {
+//            sum += i
+//        }
+//        return nums.count * (nums.count + 1) / 2 - sum
+
+        return nums.count * (nums.count + 1) / 2 - nums.reduce(0, +)
     }
     
     class func solution() {
