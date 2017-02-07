@@ -81,7 +81,9 @@ func weak4(){
 func weak5(){
 //    Day29_ConstructtheRectangle_492.solution()
     
-    Day30_MissingNumber_268.solution()
+//    Day30_MissingNumber_268.solution()
+    
+    Day31_KeyboardRow_500.solution()
 }
 
 //weak1()
