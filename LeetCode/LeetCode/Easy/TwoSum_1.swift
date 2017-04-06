@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Day1_TwoSum_1: NSObject {
+class TwoSum_1: NSObject {
 
     
     /// 给定一个整数数组，以及一个目标数。要求返回两个不相同的位置，使得数组在这两个位置上的数之和为目标数。题目确保有唯一解。
@@ -23,7 +23,7 @@ class Day1_TwoSum_1: NSObject {
     /// - parameter target: 目标数
     ///
     /// - returns: 位置数组
-    private class func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
+    static func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
         
         var hash: [Int : Int] = [:]
         var resArray : [Int] = []
@@ -38,17 +38,5 @@ class Day1_TwoSum_1: NSObject {
             
         }
         return resArray;
-    }
-    
-    /* adasdasd */
-    class func a() {
-        
-    }
-    
-    class func solution() {
-        let nums = [3,11,2,4,1,5,6,7,8,9,10]
-        let target = 21
-        let result = self.twoSum(nums, target)
-        print("\(self .className())`s result is \(result)")
     }
 }

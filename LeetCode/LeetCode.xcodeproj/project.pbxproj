@@ -7,40 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C14C6DD91E447F180056E1BD /* Day28_NumberComplement_476.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14C6DD81E447F180056E1BD /* Day28_NumberComplement_476.swift */; };
-		C14C6DDD1E45CBC20056E1BD /* Day29_ConstructtheRectangle_492.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14C6DDC1E45CBC20056E1BD /* Day29_ConstructtheRectangle_492.swift */; };
-		C14D4EB91E10FF7700A076E1 /* Day25_BinaryWatch_401.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14D4EB81E10FF7700A076E1 /* Day25_BinaryWatch_401.swift */; };
 		C17AEF6E1DD2146500F30316 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17AEF6D1DD2146500F30316 /* main.swift */; };
-		C192EF111E48744C00031D9E /* Day30_MissingNumber_268.swift in Sources */ = {isa = PBXBuildFile; fileRef = C192EF101E48744C00031D9E /* Day30_MissingNumber_268.swift */; };
-		C1A229711E0BC7A400D67B62 /* Day1_TwoSum_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A2293D1E0BC7A400D67B62 /* Day1_TwoSum_1.swift */; };
-		C1A229721E0BC7A400D67B62 /* Day2_CountingBits_338.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A2293F1E0BC7A400D67B62 /* Day2_CountingBits_338.swift */; };
-		C1A229731E0BC7A400D67B62 /* Day3_ReverseString_344.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A229411E0BC7A400D67B62 /* Day3_ReverseString_344.swift */; };
-		C1A229741E0BC7A400D67B62 /* Day4_FizzBuzz_412.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A229431E0BC7A400D67B62 /* Day4_FizzBuzz_412.swift */; };
-		C1A229751E0BC7A400D67B62 /* 292. NimGame.md in Sources */ = {isa = PBXBuildFile; fileRef = C1A229451E0BC7A400D67B62 /* 292. NimGame.md */; };
-		C1A229761E0BC7A400D67B62 /* Day5_NimGame_292.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A229461E0BC7A400D67B62 /* Day5_NimGame_292.swift */; };
-		C1A229771E0BC7A400D67B62 /* Day6_Single_Number_136.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A229481E0BC7A400D67B62 /* Day6_Single_Number_136.swift */; };
-		C1A229781E0BC7A400D67B62 /* 371.SumofTwoIntegers.md in Sources */ = {isa = PBXBuildFile; fileRef = C1A2294A1E0BC7A400D67B62 /* 371.SumofTwoIntegers.md */; };
-		C1A229791E0BC7A400D67B62 /* Day7_SumofTwoIntegers_371.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A2294B1E0BC7A400D67B62 /* Day7_SumofTwoIntegers_371.swift */; };
-		C1A2297A1E0BC7A400D67B62 /* Day10_RansomNote_383.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A2294E1E0BC7A400D67B62 /* Day10_RansomNote_383.swift */; };
-		C1A2297B1E0BC7A400D67B62 /* Day11_IntersectionofTwoArrays_349.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A229501E0BC7A400D67B62 /* Day11_IntersectionofTwoArrays_349.swift */; };
-		C1A2297C1E0BC7A400D67B62 /* Day12_ExcelSheetColumnNumber_171.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A229521E0BC7A400D67B62 /* Day12_ExcelSheetColumnNumber_171.swift */; };
-		C1A2297D1E0BC7A400D67B62 /* Day13_ExcelSheetColumnTitle_168.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A229541E0BC7A400D67B62 /* Day13_ExcelSheetColumnTitle_168.swift */; };
-		C1A2297E1E0BC7A400D67B62 /* Day14_FirstUniqueCharacterinaString_387.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A229561E0BC7A400D67B62 /* Day14_FirstUniqueCharacterinaString_387.swift */; };
-		C1A2297F1E0BC7A400D67B62 /* Day8_AddDigits_258.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A229581E0BC7A400D67B62 /* Day8_AddDigits_258.swift */; };
-		C1A229801E0BC7A400D67B62 /* Day9_MoveZeroes_283.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A2295A1E0BC7A400D67B62 /* Day9_MoveZeroes_283.swift */; };
-		C1A229811E0BC7A400D67B62 /* Day15_LongestPalindrome_409.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A2295D1E0BC7A400D67B62 /* Day15_LongestPalindrome_409.swift */; };
-		C1A229821E0BC7A400D67B62 /* Day16_ValidAnagram_242.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A2295F1E0BC7A400D67B62 /* Day16_ValidAnagram_242.swift */; };
-		C1A229831E0BC7A400D67B62 /* Day17_MajorityElement_169.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A229611E0BC7A400D67B62 /* Day17_MajorityElement_169.swift */; };
-		C1A229841E0BC7A400D67B62 /* Day18_ContainsDuplicate_217 .swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A229631E0BC7A400D67B62 /* Day18_ContainsDuplicate_217 .swift */; };
-		C1A229851E0BC7A400D67B62 /* Day19_MinimumMovestoEqualArrayElements_453.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A229651E0BC7A400D67B62 /* Day19_MinimumMovestoEqualArrayElements_453.swift */; };
-		C1A229861E0BC7A400D67B62 /* Day20_AssignCookies_455.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A229671E0BC7A400D67B62 /* Day20_AssignCookies_455.swift */; };
-		C1A229871E0BC7A400D67B62 /* Day21_IslandPerimeter_463.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A229691E0BC7A400D67B62 /* Day21_IslandPerimeter_463.swift */; };
-		C1A229881E0BC7A400D67B62 /* Day22_IntersectionofTwoArraysII_350.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A2296C1E0BC7A400D67B62 /* Day22_IntersectionofTwoArraysII_350.swift */; };
-		C1A229891E0BC7A400D67B62 /* Day23_FindAllNumbersDisappearedinanArray_448.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A2296E1E0BC7A400D67B62 /* Day23_FindAllNumbersDisappearedinanArray_448.swift */; };
-		C1A2298A1E0BC7A400D67B62 /* Day24_HammingDistance_461.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A229701E0BC7A400D67B62 /* Day24_HammingDistance_461.swift */; };
-		C1A43FB21E49BD9E00F0307B /* Day31_KeyboardRow_500.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A43FB11E49BD9E00F0307B /* Day31_KeyboardRow_500.swift */; };
-		C1BA82D01E238A10005680EE /* Day26_NumberofBoomerangs_447.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BA82CF1E238A10005680EE /* Day26_NumberofBoomerangs_447.swift */; };
-		C1D462B91E24BC97003FC071 /* Day27_AddStrings_415.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D462B81E24BC97003FC071 /* Day27_AddStrings_415.swift */; };
+		C1AFDDAF1E9635E400A09A2F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17AEF6D1DD2146500F30316 /* main.swift */; };
+		C1AFDDB21E9637A400A09A2F /* TwoSum_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AFDDB11E9637A400A09A2F /* TwoSum_1.swift */; };
+		C1AFDDB31E9637A400A09A2F /* TwoSum_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AFDDB11E9637A400A09A2F /* TwoSum_1.swift */; };
+		C1AFDDB81E96385200A09A2F /* TwoSum_1_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AFDDB71E96385200A09A2F /* TwoSum_1_Test.swift */; };
+		C1AFDDBA1E963D7300A09A2F /* LeetCodeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AFDDB91E963D7300A09A2F /* LeetCodeTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -56,41 +28,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C14C6DD81E447F180056E1BD /* Day28_NumberComplement_476.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day28_NumberComplement_476.swift; sourceTree = "<group>"; };
-		C14C6DDC1E45CBC20056E1BD /* Day29_ConstructtheRectangle_492.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day29_ConstructtheRectangle_492.swift; sourceTree = "<group>"; };
-		C14D4EB81E10FF7700A076E1 /* Day25_BinaryWatch_401.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day25_BinaryWatch_401.swift; sourceTree = "<group>"; };
 		C17AEF6A1DD2146500F30316 /* Leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		C17AEF6D1DD2146500F30316 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		C192EF101E48744C00031D9E /* Day30_MissingNumber_268.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day30_MissingNumber_268.swift; sourceTree = "<group>"; };
-		C1A2293D1E0BC7A400D67B62 /* Day1_TwoSum_1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day1_TwoSum_1.swift; sourceTree = "<group>"; };
-		C1A2293F1E0BC7A400D67B62 /* Day2_CountingBits_338.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day2_CountingBits_338.swift; sourceTree = "<group>"; };
-		C1A229411E0BC7A400D67B62 /* Day3_ReverseString_344.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day3_ReverseString_344.swift; sourceTree = "<group>"; };
-		C1A229431E0BC7A400D67B62 /* Day4_FizzBuzz_412.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day4_FizzBuzz_412.swift; sourceTree = "<group>"; };
-		C1A229451E0BC7A400D67B62 /* 292. NimGame.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "292. NimGame.md"; sourceTree = "<group>"; };
-		C1A229461E0BC7A400D67B62 /* Day5_NimGame_292.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day5_NimGame_292.swift; sourceTree = "<group>"; };
-		C1A229481E0BC7A400D67B62 /* Day6_Single_Number_136.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day6_Single_Number_136.swift; sourceTree = "<group>"; };
-		C1A2294A1E0BC7A400D67B62 /* 371.SumofTwoIntegers.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = 371.SumofTwoIntegers.md; sourceTree = "<group>"; };
-		C1A2294B1E0BC7A400D67B62 /* Day7_SumofTwoIntegers_371.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day7_SumofTwoIntegers_371.swift; sourceTree = "<group>"; };
-		C1A2294E1E0BC7A400D67B62 /* Day10_RansomNote_383.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day10_RansomNote_383.swift; sourceTree = "<group>"; };
-		C1A229501E0BC7A400D67B62 /* Day11_IntersectionofTwoArrays_349.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day11_IntersectionofTwoArrays_349.swift; sourceTree = "<group>"; };
-		C1A229521E0BC7A400D67B62 /* Day12_ExcelSheetColumnNumber_171.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day12_ExcelSheetColumnNumber_171.swift; sourceTree = "<group>"; };
-		C1A229541E0BC7A400D67B62 /* Day13_ExcelSheetColumnTitle_168.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day13_ExcelSheetColumnTitle_168.swift; sourceTree = "<group>"; };
-		C1A229561E0BC7A400D67B62 /* Day14_FirstUniqueCharacterinaString_387.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day14_FirstUniqueCharacterinaString_387.swift; sourceTree = "<group>"; };
-		C1A229581E0BC7A400D67B62 /* Day8_AddDigits_258.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day8_AddDigits_258.swift; sourceTree = "<group>"; };
-		C1A2295A1E0BC7A400D67B62 /* Day9_MoveZeroes_283.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day9_MoveZeroes_283.swift; sourceTree = "<group>"; };
-		C1A2295D1E0BC7A400D67B62 /* Day15_LongestPalindrome_409.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day15_LongestPalindrome_409.swift; sourceTree = "<group>"; };
-		C1A2295F1E0BC7A400D67B62 /* Day16_ValidAnagram_242.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day16_ValidAnagram_242.swift; sourceTree = "<group>"; };
-		C1A229611E0BC7A400D67B62 /* Day17_MajorityElement_169.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day17_MajorityElement_169.swift; sourceTree = "<group>"; };
-		C1A229631E0BC7A400D67B62 /* Day18_ContainsDuplicate_217 .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Day18_ContainsDuplicate_217 .swift"; sourceTree = "<group>"; };
-		C1A229651E0BC7A400D67B62 /* Day19_MinimumMovestoEqualArrayElements_453.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day19_MinimumMovestoEqualArrayElements_453.swift; sourceTree = "<group>"; };
-		C1A229671E0BC7A400D67B62 /* Day20_AssignCookies_455.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day20_AssignCookies_455.swift; sourceTree = "<group>"; };
-		C1A229691E0BC7A400D67B62 /* Day21_IslandPerimeter_463.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day21_IslandPerimeter_463.swift; sourceTree = "<group>"; };
-		C1A2296C1E0BC7A400D67B62 /* Day22_IntersectionofTwoArraysII_350.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day22_IntersectionofTwoArraysII_350.swift; sourceTree = "<group>"; };
-		C1A2296E1E0BC7A400D67B62 /* Day23_FindAllNumbersDisappearedinanArray_448.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day23_FindAllNumbersDisappearedinanArray_448.swift; sourceTree = "<group>"; };
-		C1A229701E0BC7A400D67B62 /* Day24_HammingDistance_461.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day24_HammingDistance_461.swift; sourceTree = "<group>"; };
-		C1A43FB11E49BD9E00F0307B /* Day31_KeyboardRow_500.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day31_KeyboardRow_500.swift; sourceTree = "<group>"; };
-		C1BA82CF1E238A10005680EE /* Day26_NumberofBoomerangs_447.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day26_NumberofBoomerangs_447.swift; sourceTree = "<group>"; };
-		C1D462B81E24BC97003FC071 /* Day27_AddStrings_415.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day27_AddStrings_415.swift; sourceTree = "<group>"; };
+		C1AFDDA71E96357800A09A2F /* LeetcodeTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetcodeTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1AFDDAB1E96357800A09A2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1AFDDB11E9637A400A09A2F /* TwoSum_1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoSum_1.swift; sourceTree = "<group>"; };
+		C1AFDDB71E96385200A09A2F /* TwoSum_1_Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoSum_1_Test.swift; sourceTree = "<group>"; };
+		C1AFDDB91E963D7300A09A2F /* LeetCodeTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeetCodeTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,47 +45,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C1AFDDA41E96357800A09A2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C14C6DD71E447F180056E1BD /* Day28_NumberComplement_476 */ = {
-			isa = PBXGroup;
-			children = (
-				C14C6DD81E447F180056E1BD /* Day28_NumberComplement_476.swift */,
-			);
-			path = Day28_NumberComplement_476;
-			sourceTree = "<group>";
-		};
-		C14C6DDA1E45CBC20056E1BD /* Week5 */ = {
-			isa = PBXGroup;
-			children = (
-				C1A43FB01E49BD9E00F0307B /* Day31_KeyboardRow_500 */,
-				C192EF0F1E48744C00031D9E /* Day30_MissingNumber_268 */,
-				C14C6DDB1E45CBC20056E1BD /* Day29_ConstructtheRectangle_492 */,
-			);
-			path = Week5;
-			sourceTree = "<group>";
-		};
-		C14C6DDB1E45CBC20056E1BD /* Day29_ConstructtheRectangle_492 */ = {
-			isa = PBXGroup;
-			children = (
-				C14C6DDC1E45CBC20056E1BD /* Day29_ConstructtheRectangle_492.swift */,
-			);
-			path = Day29_ConstructtheRectangle_492;
-			sourceTree = "<group>";
-		};
-		C14D4EB71E10FF7700A076E1 /* Day25_BinaryWatch_401 */ = {
-			isa = PBXGroup;
-			children = (
-				C14D4EB81E10FF7700A076E1 /* Day25_BinaryWatch_401.swift */,
-			);
-			path = Day25_BinaryWatch_401;
-			sourceTree = "<group>";
-		};
 		C17AEF611DD2146500F30316 = {
 			isa = PBXGroup;
 			children = (
 				C17AEF6C1DD2146500F30316 /* Leetcode */,
+				C1AFDDA81E96357800A09A2F /* LeetcodeTest */,
 				C17AEF6B1DD2146500F30316 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -150,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				C17AEF6A1DD2146500F30316 /* Leetcode */,
+				C1AFDDA71E96357800A09A2F /* LeetcodeTest.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -157,312 +76,36 @@
 		C17AEF6C1DD2146500F30316 /* Leetcode */ = {
 			isa = PBXGroup;
 			children = (
-				C17AEF741DD214DA00F30316 /* Questions */,
+				C1AFDDB01E9637A400A09A2F /* Easy */,
 				C17AEF6D1DD2146500F30316 /* main.swift */,
 			);
 			path = Leetcode;
 			sourceTree = "<group>";
 		};
-		C17AEF741DD214DA00F30316 /* Questions */ = {
+		C1AFDDA81E96357800A09A2F /* LeetcodeTest */ = {
 			isa = PBXGroup;
 			children = (
-				C1A2293A1E0BC7A400D67B62 /* Month1 */,
+				C1AFDDB41E9637E100A09A2F /* Easy */,
+				C1AFDDB91E963D7300A09A2F /* LeetCodeTest.swift */,
+				C1AFDDAB1E96357800A09A2F /* Info.plist */,
 			);
-			path = Questions;
+			path = LeetcodeTest;
 			sourceTree = "<group>";
 		};
-		C192EF0F1E48744C00031D9E /* Day30_MissingNumber_268 */ = {
+		C1AFDDB01E9637A400A09A2F /* Easy */ = {
 			isa = PBXGroup;
 			children = (
-				C192EF101E48744C00031D9E /* Day30_MissingNumber_268.swift */,
+				C1AFDDB11E9637A400A09A2F /* TwoSum_1.swift */,
 			);
-			path = Day30_MissingNumber_268;
+			path = Easy;
 			sourceTree = "<group>";
 		};
-		C1A2293A1E0BC7A400D67B62 /* Month1 */ = {
+		C1AFDDB41E9637E100A09A2F /* Easy */ = {
 			isa = PBXGroup;
 			children = (
-				C1A2293B1E0BC7A400D67B62 /* Week1 */,
-				C1A2294C1E0BC7A400D67B62 /* Week2 */,
-				C1A2295B1E0BC7A400D67B62 /* Week3 */,
-				C1A2296A1E0BC7A400D67B62 /* Week4 */,
-				C14C6DDA1E45CBC20056E1BD /* Week5 */,
+				C1AFDDB71E96385200A09A2F /* TwoSum_1_Test.swift */,
 			);
-			path = Month1;
-			sourceTree = "<group>";
-		};
-		C1A2293B1E0BC7A400D67B62 /* Week1 */ = {
-			isa = PBXGroup;
-			children = (
-				C1A2293C1E0BC7A400D67B62 /* Day1_TwoSum_1 */,
-				C1A2293E1E0BC7A400D67B62 /* Day2_CountingBits_338 */,
-				C1A229401E0BC7A400D67B62 /* Day3_ReverseString_344 */,
-				C1A229421E0BC7A400D67B62 /* Day4_FizzBuzz_412 */,
-				C1A229441E0BC7A400D67B62 /* Day5_NimGame_292 */,
-				C1A229471E0BC7A400D67B62 /* Day6_Single_Number_136 */,
-				C1A229491E0BC7A400D67B62 /* Day7_SumofTwoIntegers_371 */,
-			);
-			path = Week1;
-			sourceTree = "<group>";
-		};
-		C1A2293C1E0BC7A400D67B62 /* Day1_TwoSum_1 */ = {
-			isa = PBXGroup;
-			children = (
-				C1A2293D1E0BC7A400D67B62 /* Day1_TwoSum_1.swift */,
-			);
-			path = Day1_TwoSum_1;
-			sourceTree = "<group>";
-		};
-		C1A2293E1E0BC7A400D67B62 /* Day2_CountingBits_338 */ = {
-			isa = PBXGroup;
-			children = (
-				C1A2293F1E0BC7A400D67B62 /* Day2_CountingBits_338.swift */,
-			);
-			path = Day2_CountingBits_338;
-			sourceTree = "<group>";
-		};
-		C1A229401E0BC7A400D67B62 /* Day3_ReverseString_344 */ = {
-			isa = PBXGroup;
-			children = (
-				C1A229411E0BC7A400D67B62 /* Day3_ReverseString_344.swift */,
-			);
-			path = Day3_ReverseString_344;
-			sourceTree = "<group>";
-		};
-		C1A229421E0BC7A400D67B62 /* Day4_FizzBuzz_412 */ = {
-			isa = PBXGroup;
-			children = (
-				C1A229431E0BC7A400D67B62 /* Day4_FizzBuzz_412.swift */,
-			);
-			path = Day4_FizzBuzz_412;
-			sourceTree = "<group>";
-		};
-		C1A229441E0BC7A400D67B62 /* Day5_NimGame_292 */ = {
-			isa = PBXGroup;
-			children = (
-				C1A229451E0BC7A400D67B62 /* 292. NimGame.md */,
-				C1A229461E0BC7A400D67B62 /* Day5_NimGame_292.swift */,
-			);
-			path = Day5_NimGame_292;
-			sourceTree = "<group>";
-		};
-		C1A229471E0BC7A400D67B62 /* Day6_Single_Number_136 */ = {
-			isa = PBXGroup;
-			children = (
-				C1A229481E0BC7A400D67B62 /* Day6_Single_Number_136.swift */,
-			);
-			path = Day6_Single_Number_136;
-			sourceTree = "<group>";
-		};
-		C1A229491E0BC7A400D67B62 /* Day7_SumofTwoIntegers_371 */ = {
-			isa = PBXGroup;
-			children = (
-				C1A2294A1E0BC7A400D67B62 /* 371.SumofTwoIntegers.md */,
-				C1A2294B1E0BC7A400D67B62 /* Day7_SumofTwoIntegers_371.swift */,
-			);
-			path = Day7_SumofTwoIntegers_371;
-			sourceTree = "<group>";
-		};
-		C1A2294C1E0BC7A400D67B62 /* Week2 */ = {
-			isa = PBXGroup;
-			children = (
-				C1A2294D1E0BC7A400D67B62 /* Day10_RansomNote_383 */,
-				C1A2294F1E0BC7A400D67B62 /* Day11_IntersectionofTwoArrays_349 */,
-				C1A229511E0BC7A400D67B62 /* Day12_ExcelSheetColumnNumber_171 */,
-				C1A229531E0BC7A400D67B62 /* Day13_ExcelSheetColumnTitle_168 */,
-				C1A229551E0BC7A400D67B62 /* Day14_FirstUniqueCharacterinaString_387 */,
-				C1A229571E0BC7A400D67B62 /* Day8_AddDigits_258 */,
-				C1A229591E0BC7A400D67B62 /* Day9_MoveZeroes_283 */,
-			);
-			path = Week2;
-			sourceTree = "<group>";
-		};
-		C1A2294D1E0BC7A400D67B62 /* Day10_RansomNote_383 */ = {
-			isa = PBXGroup;
-			children = (
-				C1A2294E1E0BC7A400D67B62 /* Day10_RansomNote_383.swift */,
-			);
-			path = Day10_RansomNote_383;
-			sourceTree = "<group>";
-		};
-		C1A2294F1E0BC7A400D67B62 /* Day11_IntersectionofTwoArrays_349 */ = {
-			isa = PBXGroup;
-			children = (
-				C1A229501E0BC7A400D67B62 /* Day11_IntersectionofTwoArrays_349.swift */,
-			);
-			path = Day11_IntersectionofTwoArrays_349;
-			sourceTree = "<group>";
-		};
-		C1A229511E0BC7A400D67B62 /* Day12_ExcelSheetColumnNumber_171 */ = {
-			isa = PBXGroup;
-			children = (
-				C1A229521E0BC7A400D67B62 /* Day12_ExcelSheetColumnNumber_171.swift */,
-			);
-			path = Day12_ExcelSheetColumnNumber_171;
-			sourceTree = "<group>";
-		};
-		C1A229531E0BC7A400D67B62 /* Day13_ExcelSheetColumnTitle_168 */ = {
-			isa = PBXGroup;
-			children = (
-				C1A229541E0BC7A400D67B62 /* Day13_ExcelSheetColumnTitle_168.swift */,
-			);
-			path = Day13_ExcelSheetColumnTitle_168;
-			sourceTree = "<group>";
-		};
-		C1A229551E0BC7A400D67B62 /* Day14_FirstUniqueCharacterinaString_387 */ = {
-			isa = PBXGroup;
-			children = (
-				C1A229561E0BC7A400D67B62 /* Day14_FirstUniqueCharacterinaString_387.swift */,
-			);
-			path = Day14_FirstUniqueCharacterinaString_387;
-			sourceTree = "<group>";
-		};
-		C1A229571E0BC7A400D67B62 /* Day8_AddDigits_258 */ = {
-			isa = PBXGroup;
-			children = (
-				C1A229581E0BC7A400D67B62 /* Day8_AddDigits_258.swift */,
-			);
-			path = Day8_AddDigits_258;
-			sourceTree = "<group>";
-		};
-		C1A229591E0BC7A400D67B62 /* Day9_MoveZeroes_283 */ = {
-			isa = PBXGroup;
-			children = (
-				C1A2295A1E0BC7A400D67B62 /* Day9_MoveZeroes_283.swift */,
-			);
-			path = Day9_MoveZeroes_283;
-			sourceTree = "<group>";
-		};
-		C1A2295B1E0BC7A400D67B62 /* Week3 */ = {
-			isa = PBXGroup;
-			children = (
-				C1A2295C1E0BC7A400D67B62 /* Day15_LongestPalindrome_409 */,
-				C1A2295E1E0BC7A400D67B62 /* Day16_ValidAnagram_242 */,
-				C1A229601E0BC7A400D67B62 /* Day17_MajorityElement_169 */,
-				C1A229621E0BC7A400D67B62 /* Day18_ContainsDuplicate_217  */,
-				C1A229641E0BC7A400D67B62 /* Day19_MinimumMovestoEqualArrayElements_453 */,
-				C1A229661E0BC7A400D67B62 /* Day20_AssignCookies_455 */,
-				C1A229681E0BC7A400D67B62 /* Day21_IslandPerimeter_463 */,
-			);
-			path = Week3;
-			sourceTree = "<group>";
-		};
-		C1A2295C1E0BC7A400D67B62 /* Day15_LongestPalindrome_409 */ = {
-			isa = PBXGroup;
-			children = (
-				C1A2295D1E0BC7A400D67B62 /* Day15_LongestPalindrome_409.swift */,
-			);
-			path = Day15_LongestPalindrome_409;
-			sourceTree = "<group>";
-		};
-		C1A2295E1E0BC7A400D67B62 /* Day16_ValidAnagram_242 */ = {
-			isa = PBXGroup;
-			children = (
-				C1A2295F1E0BC7A400D67B62 /* Day16_ValidAnagram_242.swift */,
-			);
-			path = Day16_ValidAnagram_242;
-			sourceTree = "<group>";
-		};
-		C1A229601E0BC7A400D67B62 /* Day17_MajorityElement_169 */ = {
-			isa = PBXGroup;
-			children = (
-				C1A229611E0BC7A400D67B62 /* Day17_MajorityElement_169.swift */,
-			);
-			path = Day17_MajorityElement_169;
-			sourceTree = "<group>";
-		};
-		C1A229621E0BC7A400D67B62 /* Day18_ContainsDuplicate_217  */ = {
-			isa = PBXGroup;
-			children = (
-				C1A229631E0BC7A400D67B62 /* Day18_ContainsDuplicate_217 .swift */,
-			);
-			path = "Day18_ContainsDuplicate_217 ";
-			sourceTree = "<group>";
-		};
-		C1A229641E0BC7A400D67B62 /* Day19_MinimumMovestoEqualArrayElements_453 */ = {
-			isa = PBXGroup;
-			children = (
-				C1A229651E0BC7A400D67B62 /* Day19_MinimumMovestoEqualArrayElements_453.swift */,
-			);
-			path = Day19_MinimumMovestoEqualArrayElements_453;
-			sourceTree = "<group>";
-		};
-		C1A229661E0BC7A400D67B62 /* Day20_AssignCookies_455 */ = {
-			isa = PBXGroup;
-			children = (
-				C1A229671E0BC7A400D67B62 /* Day20_AssignCookies_455.swift */,
-			);
-			path = Day20_AssignCookies_455;
-			sourceTree = "<group>";
-		};
-		C1A229681E0BC7A400D67B62 /* Day21_IslandPerimeter_463 */ = {
-			isa = PBXGroup;
-			children = (
-				C1A229691E0BC7A400D67B62 /* Day21_IslandPerimeter_463.swift */,
-			);
-			path = Day21_IslandPerimeter_463;
-			sourceTree = "<group>";
-		};
-		C1A2296A1E0BC7A400D67B62 /* Week4 */ = {
-			isa = PBXGroup;
-			children = (
-				C14C6DD71E447F180056E1BD /* Day28_NumberComplement_476 */,
-				C1D462B71E24BC97003FC071 /* Day27_AddStrings_415 */,
-				C1BA82CE1E238A10005680EE /* Day26_NumberofBoomerangs_447 */,
-				C14D4EB71E10FF7700A076E1 /* Day25_BinaryWatch_401 */,
-				C1A2296B1E0BC7A400D67B62 /* Day22_IntersectionofTwoArraysII_350 */,
-				C1A2296D1E0BC7A400D67B62 /* Day23_FindAllNumbersDisappearedinanArray_448 */,
-				C1A2296F1E0BC7A400D67B62 /* Day24_HammingDistance_461 */,
-			);
-			path = Week4;
-			sourceTree = "<group>";
-		};
-		C1A2296B1E0BC7A400D67B62 /* Day22_IntersectionofTwoArraysII_350 */ = {
-			isa = PBXGroup;
-			children = (
-				C1A2296C1E0BC7A400D67B62 /* Day22_IntersectionofTwoArraysII_350.swift */,
-			);
-			path = Day22_IntersectionofTwoArraysII_350;
-			sourceTree = "<group>";
-		};
-		C1A2296D1E0BC7A400D67B62 /* Day23_FindAllNumbersDisappearedinanArray_448 */ = {
-			isa = PBXGroup;
-			children = (
-				C1A2296E1E0BC7A400D67B62 /* Day23_FindAllNumbersDisappearedinanArray_448.swift */,
-			);
-			path = Day23_FindAllNumbersDisappearedinanArray_448;
-			sourceTree = "<group>";
-		};
-		C1A2296F1E0BC7A400D67B62 /* Day24_HammingDistance_461 */ = {
-			isa = PBXGroup;
-			children = (
-				C1A229701E0BC7A400D67B62 /* Day24_HammingDistance_461.swift */,
-			);
-			path = Day24_HammingDistance_461;
-			sourceTree = "<group>";
-		};
-		C1A43FB01E49BD9E00F0307B /* Day31_KeyboardRow_500 */ = {
-			isa = PBXGroup;
-			children = (
-				C1A43FB11E49BD9E00F0307B /* Day31_KeyboardRow_500.swift */,
-			);
-			path = Day31_KeyboardRow_500;
-			sourceTree = "<group>";
-		};
-		C1BA82CE1E238A10005680EE /* Day26_NumberofBoomerangs_447 */ = {
-			isa = PBXGroup;
-			children = (
-				C1BA82CF1E238A10005680EE /* Day26_NumberofBoomerangs_447.swift */,
-			);
-			path = Day26_NumberofBoomerangs_447;
-			sourceTree = "<group>";
-		};
-		C1D462B71E24BC97003FC071 /* Day27_AddStrings_415 */ = {
-			isa = PBXGroup;
-			children = (
-				C1D462B81E24BC97003FC071 /* Day27_AddStrings_415.swift */,
-			);
-			path = Day27_AddStrings_415;
+			path = Easy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -485,18 +128,39 @@
 			productReference = C17AEF6A1DD2146500F30316 /* Leetcode */;
 			productType = "com.apple.product-type.tool";
 		};
+		C1AFDDA61E96357800A09A2F /* LeetcodeTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1AFDDAC1E96357800A09A2F /* Build configuration list for PBXNativeTarget "LeetcodeTest" */;
+			buildPhases = (
+				C1AFDDA31E96357800A09A2F /* Sources */,
+				C1AFDDA41E96357800A09A2F /* Frameworks */,
+				C1AFDDA51E96357800A09A2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeetcodeTest;
+			productName = LeetcodeTest;
+			productReference = C1AFDDA71E96357800A09A2F /* LeetcodeTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		C17AEF621DD2146500F30316 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0800;
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = pcz;
 				TargetAttributes = {
 					C17AEF691DD2146500F30316 = {
 						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					C1AFDDA61E96357800A09A2F = {
+						CreatedOnToolsVersion = 8.3;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -514,49 +178,39 @@
 			projectRoot = "";
 			targets = (
 				C17AEF691DD2146500F30316 /* Leetcode */,
+				C1AFDDA61E96357800A09A2F /* LeetcodeTest */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1AFDDA51E96357800A09A2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C17AEF661DD2146500F30316 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1A229841E0BC7A400D67B62 /* Day18_ContainsDuplicate_217 .swift in Sources */,
-				C14C6DDD1E45CBC20056E1BD /* Day29_ConstructtheRectangle_492.swift in Sources */,
-				C1BA82D01E238A10005680EE /* Day26_NumberofBoomerangs_447.swift in Sources */,
-				C1A2297B1E0BC7A400D67B62 /* Day11_IntersectionofTwoArrays_349.swift in Sources */,
-				C1A229741E0BC7A400D67B62 /* Day4_FizzBuzz_412.swift in Sources */,
-				C1A2297A1E0BC7A400D67B62 /* Day10_RansomNote_383.swift in Sources */,
-				C1A229851E0BC7A400D67B62 /* Day19_MinimumMovestoEqualArrayElements_453.swift in Sources */,
-				C1A2297F1E0BC7A400D67B62 /* Day8_AddDigits_258.swift in Sources */,
-				C1A2298A1E0BC7A400D67B62 /* Day24_HammingDistance_461.swift in Sources */,
-				C1A2297D1E0BC7A400D67B62 /* Day13_ExcelSheetColumnTitle_168.swift in Sources */,
-				C1A229801E0BC7A400D67B62 /* Day9_MoveZeroes_283.swift in Sources */,
-				C1A229821E0BC7A400D67B62 /* Day16_ValidAnagram_242.swift in Sources */,
-				C1A229861E0BC7A400D67B62 /* Day20_AssignCookies_455.swift in Sources */,
-				C1A229731E0BC7A400D67B62 /* Day3_ReverseString_344.swift in Sources */,
-				C1A43FB21E49BD9E00F0307B /* Day31_KeyboardRow_500.swift in Sources */,
-				C1A2297E1E0BC7A400D67B62 /* Day14_FirstUniqueCharacterinaString_387.swift in Sources */,
+				C1AFDDB21E9637A400A09A2F /* TwoSum_1.swift in Sources */,
 				C17AEF6E1DD2146500F30316 /* main.swift in Sources */,
-				C1A229751E0BC7A400D67B62 /* 292. NimGame.md in Sources */,
-				C1A229871E0BC7A400D67B62 /* Day21_IslandPerimeter_463.swift in Sources */,
-				C1A229881E0BC7A400D67B62 /* Day22_IntersectionofTwoArraysII_350.swift in Sources */,
-				C1A229831E0BC7A400D67B62 /* Day17_MajorityElement_169.swift in Sources */,
-				C1A229721E0BC7A400D67B62 /* Day2_CountingBits_338.swift in Sources */,
-				C1A229771E0BC7A400D67B62 /* Day6_Single_Number_136.swift in Sources */,
-				C1D462B91E24BC97003FC071 /* Day27_AddStrings_415.swift in Sources */,
-				C1A229811E0BC7A400D67B62 /* Day15_LongestPalindrome_409.swift in Sources */,
-				C1A229781E0BC7A400D67B62 /* 371.SumofTwoIntegers.md in Sources */,
-				C14D4EB91E10FF7700A076E1 /* Day25_BinaryWatch_401.swift in Sources */,
-				C14C6DD91E447F180056E1BD /* Day28_NumberComplement_476.swift in Sources */,
-				C1A229791E0BC7A400D67B62 /* Day7_SumofTwoIntegers_371.swift in Sources */,
-				C192EF111E48744C00031D9E /* Day30_MissingNumber_268.swift in Sources */,
-				C1A2297C1E0BC7A400D67B62 /* Day12_ExcelSheetColumnNumber_171.swift in Sources */,
-				C1A229891E0BC7A400D67B62 /* Day23_FindAllNumbersDisappearedinanArray_448.swift in Sources */,
-				C1A229711E0BC7A400D67B62 /* Day1_TwoSum_1.swift in Sources */,
-				C1A229761E0BC7A400D67B62 /* Day5_NimGame_292.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1AFDDA31E96357800A09A2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1AFDDAF1E9635E400A09A2F /* main.swift in Sources */,
+				C1AFDDB81E96385200A09A2F /* TwoSum_1_Test.swift in Sources */,
+				C1AFDDBA1E963D7300A09A2F /* LeetCodeTest.swift in Sources */,
+				C1AFDDB31E9637A400A09A2F /* TwoSum_1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -670,6 +324,35 @@
 			};
 			name = Release;
 		};
+		C1AFDDAD1E96357800A09A2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LeetcodeTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pan.LeetcodeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C1AFDDAE1E96357800A09A2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LeetcodeTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pan.LeetcodeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -690,6 +373,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		C1AFDDAC1E96357800A09A2F /* Build configuration list for PBXNativeTarget "LeetcodeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1AFDDAD1E96357800A09A2F /* Debug */,
+				C1AFDDAE1E96357800A09A2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
