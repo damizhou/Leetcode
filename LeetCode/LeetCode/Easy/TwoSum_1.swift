@@ -32,11 +32,10 @@ class TwoSum_1: NSObject {
             if let index = hash[target - j]{
                 resArray.append(index)
                 resArray.append(i)
-                return resArray
+                break
             }
             hash[j] = i
-            
         }
-        return resArray;
+        return resArray
     }
 }

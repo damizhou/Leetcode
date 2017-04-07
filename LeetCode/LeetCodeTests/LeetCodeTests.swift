@@ -1,15 +1,16 @@
 //
-//  LeetCodeTest.swift
-//  Leetcode
+//  LeetCodeTests.swift
+//  LeetCodeTests
 //
-//  Created by 潘传洲 on 2017/4/6.
+//  Created by 潘传洲 on 2017/4/7.
 //  Copyright © 2017年 pcz. All rights reserved.
 //
 
 import XCTest
+@testable import LeetCode
 
-let Default_Timeout_Value = 0.01
-let Default_Timeout_Suffix: String = " Time Out"
+let Timeout_Value = 0.01
+let Timeout_Suffix: String = " Time Out"
 
 func assertHelper(_ expression: @autoclosure () -> Bool, problemName: String , input: Any, resultValue: Any, expectedValue: Any) {
     XCTAssert(expression(), "\n====================================\nProblem: \(problemName)\n====================================\nInput: \"\(input)\"\n====================================\nExpected: \"\(expectedValue)\"\n====================================\nResult: \"\(resultValue)\"\n====================================\n")
