@@ -35,8 +35,6 @@ class TwoSum_1_Test: XCTestCase {
     }
 
     private func asyncHelper(input0: [Int], input1: Int, expected: [Int]) {
-        
-        print("asyncHelper`s self = \(self)")
         let expectation = self.expectation(description: Timeout_Suffix)
         
         DispatchQueue.global().async {

@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		C167B6DD1E9B1EF30042FA32 /* CountingBits_338_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C167B6DC1E9B1EF30042FA32 /* CountingBits_338_Test.swift */; };
 		C167B6E01E9B1EFB0042FA32 /* CountingBits_338.swift in Sources */ = {isa = PBXBuildFile; fileRef = C167B6DF1E9B1EFB0042FA32 /* CountingBits_338.swift */; };
+		C167B6E41E9B368E0042FA32 /* ReverseString_344.swift in Sources */ = {isa = PBXBuildFile; fileRef = C167B6E31E9B368E0042FA32 /* ReverseString_344.swift */; };
+		C167B6E61E9B36D70042FA32 /* ReverseString_344_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C167B6E51E9B36D70042FA32 /* ReverseString_344_Test.swift */; };
 		C1AFDDEC1E9765B100A09A2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AFDDEB1E9765B100A09A2F /* AppDelegate.swift */; };
 		C1AFDDEE1E9765B100A09A2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AFDDED1E9765B100A09A2F /* ViewController.swift */; };
 		C1AFDDF11E9765B100A09A2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1AFDDEF1E9765B100A09A2F /* Main.storyboard */; };
@@ -32,6 +34,8 @@
 /* Begin PBXFileReference section */
 		C167B6DC1E9B1EF30042FA32 /* CountingBits_338_Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountingBits_338_Test.swift; sourceTree = "<group>"; };
 		C167B6DF1E9B1EFB0042FA32 /* CountingBits_338.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountingBits_338.swift; sourceTree = "<group>"; };
+		C167B6E31E9B368E0042FA32 /* ReverseString_344.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseString_344.swift; sourceTree = "<group>"; };
+		C167B6E51E9B36D70042FA32 /* ReverseString_344_Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseString_344_Test.swift; sourceTree = "<group>"; };
 		C1AFDDE81E9765B100A09A2F /* LeetCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1AFDDEB1E9765B100A09A2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1AFDDED1E9765B100A09A2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -144,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				C1AFDE0C1E97660300A09A2F /* TwoSum_1.swift */,
+				C167B6E31E9B368E0042FA32 /* ReverseString_344.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				C1AFDE0F1E97661300A09A2F /* TwoSum_1_Test.swift */,
+				C167B6E51E9B36D70042FA32 /* ReverseString_344_Test.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -259,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C167B6E41E9B368E0042FA32 /* ReverseString_344.swift in Sources */,
 				C167B6E01E9B1EFB0042FA32 /* CountingBits_338.swift in Sources */,
 				C1AFDDEE1E9765B100A09A2F /* ViewController.swift in Sources */,
 				C1AFDE0D1E97660300A09A2F /* TwoSum_1.swift in Sources */,
@@ -273,6 +280,7 @@
 				C1AFDE101E97661300A09A2F /* TwoSum_1_Test.swift in Sources */,
 				C1AFDE011E9765B100A09A2F /* LeetCodeTests.swift in Sources */,
 				C167B6DD1E9B1EF30042FA32 /* CountingBits_338_Test.swift in Sources */,
+				C167B6E61E9B36D70042FA32 /* ReverseString_344_Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
