@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C167B6D81E9B17530042FA32 /* CountingBits_338.swift in Sources */ = {isa = PBXBuildFile; fileRef = C167B6D71E9B17530042FA32 /* CountingBits_338.swift */; };
-		C167B6DA1E9B17910042FA32 /* CountingBits_338_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C167B6D91E9B17910042FA32 /* CountingBits_338_Test.swift */; };
+		C167B6DD1E9B1EF30042FA32 /* CountingBits_338_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C167B6DC1E9B1EF30042FA32 /* CountingBits_338_Test.swift */; };
+		C167B6E01E9B1EFB0042FA32 /* CountingBits_338.swift in Sources */ = {isa = PBXBuildFile; fileRef = C167B6DF1E9B1EFB0042FA32 /* CountingBits_338.swift */; };
 		C1AFDDEC1E9765B100A09A2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AFDDEB1E9765B100A09A2F /* AppDelegate.swift */; };
 		C1AFDDEE1E9765B100A09A2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AFDDED1E9765B100A09A2F /* ViewController.swift */; };
 		C1AFDDF11E9765B100A09A2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1AFDDEF1E9765B100A09A2F /* Main.storyboard */; };
@@ -30,8 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C167B6D71E9B17530042FA32 /* CountingBits_338.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountingBits_338.swift; sourceTree = "<group>"; };
-		C167B6D91E9B17910042FA32 /* CountingBits_338_Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountingBits_338_Test.swift; sourceTree = "<group>"; };
+		C167B6DC1E9B1EF30042FA32 /* CountingBits_338_Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountingBits_338_Test.swift; sourceTree = "<group>"; };
+		C167B6DF1E9B1EFB0042FA32 /* CountingBits_338.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountingBits_338.swift; sourceTree = "<group>"; };
 		C1AFDDE81E9765B100A09A2F /* LeetCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1AFDDEB1E9765B100A09A2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1AFDDED1E9765B100A09A2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +64,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C167B6DB1E9B1EF30042FA32 /* Medium */ = {
+			isa = PBXGroup;
+			children = (
+				C167B6DC1E9B1EF30042FA32 /* CountingBits_338_Test.swift */,
+			);
+			path = Medium;
+			sourceTree = "<group>";
+		};
+		C167B6DE1E9B1EFB0042FA32 /* Medium */ = {
+			isa = PBXGroup;
+			children = (
+				C167B6DF1E9B1EFB0042FA32 /* CountingBits_338.swift */,
+			);
+			path = Medium;
+			sourceTree = "<group>";
+		};
+		C167B6E11E9B1F480042FA32 /* Hard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Hard;
+			sourceTree = "<group>";
+		};
+		C167B6E21E9B1F4F0042FA32 /* Hard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Hard;
+			sourceTree = "<group>";
+		};
 		C1AFDDDF1E9765B100A09A2F = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				C1AFDE0B1E97660300A09A2F /* Easy */,
+				C167B6DE1E9B1EFB0042FA32 /* Medium */,
+				C167B6E11E9B1F480042FA32 /* Hard */,
 				C1AFDDEB1E9765B100A09A2F /* AppDelegate.swift */,
 				C1AFDDED1E9765B100A09A2F /* ViewController.swift */,
 				C1AFDDEF1E9765B100A09A2F /* Main.storyboard */,
@@ -100,6 +132,8 @@
 			isa = PBXGroup;
 			children = (
 				C1AFDE0E1E97661300A09A2F /* Easy */,
+				C167B6DB1E9B1EF30042FA32 /* Medium */,
+				C167B6E21E9B1F4F0042FA32 /* Hard */,
 				C1AFDE001E9765B100A09A2F /* LeetCodeTests.swift */,
 				C1AFDE021E9765B100A09A2F /* Info.plist */,
 			);
@@ -110,7 +144,6 @@
 			isa = PBXGroup;
 			children = (
 				C1AFDE0C1E97660300A09A2F /* TwoSum_1.swift */,
-				C167B6D71E9B17530042FA32 /* CountingBits_338.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -119,7 +152,6 @@
 			isa = PBXGroup;
 			children = (
 				C1AFDE0F1E97661300A09A2F /* TwoSum_1_Test.swift */,
-				C167B6D91E9B17910042FA32 /* CountingBits_338_Test.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -227,10 +259,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C167B6E01E9B1EFB0042FA32 /* CountingBits_338.swift in Sources */,
 				C1AFDDEE1E9765B100A09A2F /* ViewController.swift in Sources */,
 				C1AFDE0D1E97660300A09A2F /* TwoSum_1.swift in Sources */,
 				C1AFDDEC1E9765B100A09A2F /* AppDelegate.swift in Sources */,
-				C167B6D81E9B17530042FA32 /* CountingBits_338.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,9 +270,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C167B6DA1E9B17910042FA32 /* CountingBits_338_Test.swift in Sources */,
 				C1AFDE101E97661300A09A2F /* TwoSum_1_Test.swift in Sources */,
 				C1AFDE011E9765B100A09A2F /* LeetCodeTests.swift in Sources */,
+				C167B6DD1E9B1EF30042FA32 /* CountingBits_338_Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
