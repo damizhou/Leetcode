@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C132BB201EAF2B640079F71E /* FizzBuzz_412.swift in Sources */ = {isa = PBXBuildFile; fileRef = C132BB1F1EAF2B640079F71E /* FizzBuzz_412.swift */; };
+		C132BB221EAF2BC80079F71E /* FizzBuzz_412_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C132BB211EAF2BC80079F71E /* FizzBuzz_412_Test.swift */; };
 		C167B6DD1E9B1EF30042FA32 /* CountingBits_338_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C167B6DC1E9B1EF30042FA32 /* CountingBits_338_Test.swift */; };
 		C167B6E01E9B1EFB0042FA32 /* CountingBits_338.swift in Sources */ = {isa = PBXBuildFile; fileRef = C167B6DF1E9B1EFB0042FA32 /* CountingBits_338.swift */; };
 		C167B6E41E9B368E0042FA32 /* ReverseString_344.swift in Sources */ = {isa = PBXBuildFile; fileRef = C167B6E31E9B368E0042FA32 /* ReverseString_344.swift */; };
@@ -32,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C132BB1F1EAF2B640079F71E /* FizzBuzz_412.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FizzBuzz_412.swift; sourceTree = "<group>"; };
+		C132BB211EAF2BC80079F71E /* FizzBuzz_412_Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FizzBuzz_412_Test.swift; sourceTree = "<group>"; };
 		C167B6DC1E9B1EF30042FA32 /* CountingBits_338_Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountingBits_338_Test.swift; sourceTree = "<group>"; };
 		C167B6DF1E9B1EFB0042FA32 /* CountingBits_338.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountingBits_338.swift; sourceTree = "<group>"; };
 		C167B6E31E9B368E0042FA32 /* ReverseString_344.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseString_344.swift; sourceTree = "<group>"; };
@@ -149,6 +153,7 @@
 			children = (
 				C1AFDE0C1E97660300A09A2F /* TwoSum_1.swift */,
 				C167B6E31E9B368E0042FA32 /* ReverseString_344.swift */,
+				C132BB1F1EAF2B640079F71E /* FizzBuzz_412.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -158,6 +163,7 @@
 			children = (
 				C1AFDE0F1E97661300A09A2F /* TwoSum_1_Test.swift */,
 				C167B6E51E9B36D70042FA32 /* ReverseString_344_Test.swift */,
+				C132BB211EAF2BC80079F71E /* FizzBuzz_412_Test.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -268,6 +274,7 @@
 				C167B6E41E9B368E0042FA32 /* ReverseString_344.swift in Sources */,
 				C167B6E01E9B1EFB0042FA32 /* CountingBits_338.swift in Sources */,
 				C1AFDDEE1E9765B100A09A2F /* ViewController.swift in Sources */,
+				C132BB201EAF2B640079F71E /* FizzBuzz_412.swift in Sources */,
 				C1AFDE0D1E97660300A09A2F /* TwoSum_1.swift in Sources */,
 				C1AFDDEC1E9765B100A09A2F /* AppDelegate.swift in Sources */,
 			);
@@ -281,6 +288,7 @@
 				C1AFDE011E9765B100A09A2F /* LeetCodeTests.swift in Sources */,
 				C167B6DD1E9B1EF30042FA32 /* CountingBits_338_Test.swift in Sources */,
 				C167B6E61E9B36D70042FA32 /* ReverseString_344_Test.swift in Sources */,
+				C132BB221EAF2BC80079F71E /* FizzBuzz_412_Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
