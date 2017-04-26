@@ -21,6 +21,8 @@
 		C1AFDE011E9765B100A09A2F /* LeetCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AFDE001E9765B100A09A2F /* LeetCodeTests.swift */; };
 		C1AFDE0D1E97660300A09A2F /* TwoSum_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AFDE0C1E97660300A09A2F /* TwoSum_1.swift */; };
 		C1AFDE101E97661300A09A2F /* TwoSum_1_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AFDE0F1E97661300A09A2F /* TwoSum_1_Test.swift */; };
+		C1EBB58D1EB02EFD00753640 /* NimGame_292.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EBB58C1EB02EFD00753640 /* NimGame_292.swift */; };
+		C1EBB58F1EB02FBB00753640 /* NimGame_292_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EBB58E1EB02FBB00753640 /* NimGame_292_Test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		C1AFDE021E9765B100A09A2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1AFDE0C1E97660300A09A2F /* TwoSum_1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoSum_1.swift; sourceTree = "<group>"; };
 		C1AFDE0F1E97661300A09A2F /* TwoSum_1_Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoSum_1_Test.swift; sourceTree = "<group>"; };
+		C1EBB58C1EB02EFD00753640 /* NimGame_292.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NimGame_292.swift; sourceTree = "<group>"; };
+		C1EBB58E1EB02FBB00753640 /* NimGame_292_Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NimGame_292_Test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +158,7 @@
 				C1AFDE0C1E97660300A09A2F /* TwoSum_1.swift */,
 				C167B6E31E9B368E0042FA32 /* ReverseString_344.swift */,
 				C132BB1F1EAF2B640079F71E /* FizzBuzz_412.swift */,
+				C1EBB58C1EB02EFD00753640 /* NimGame_292.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -164,6 +169,7 @@
 				C1AFDE0F1E97661300A09A2F /* TwoSum_1_Test.swift */,
 				C167B6E51E9B36D70042FA32 /* ReverseString_344_Test.swift */,
 				C132BB211EAF2BC80079F71E /* FizzBuzz_412_Test.swift */,
+				C1EBB58E1EB02FBB00753640 /* NimGame_292_Test.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -277,6 +283,7 @@
 				C132BB201EAF2B640079F71E /* FizzBuzz_412.swift in Sources */,
 				C1AFDE0D1E97660300A09A2F /* TwoSum_1.swift in Sources */,
 				C1AFDDEC1E9765B100A09A2F /* AppDelegate.swift in Sources */,
+				C1EBB58D1EB02EFD00753640 /* NimGame_292.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +293,7 @@
 			files = (
 				C1AFDE101E97661300A09A2F /* TwoSum_1_Test.swift in Sources */,
 				C1AFDE011E9765B100A09A2F /* LeetCodeTests.swift in Sources */,
+				C1EBB58F1EB02FBB00753640 /* NimGame_292_Test.swift in Sources */,
 				C167B6DD1E9B1EF30042FA32 /* CountingBits_338_Test.swift in Sources */,
 				C167B6E61E9B36D70042FA32 /* ReverseString_344_Test.swift in Sources */,
 				C132BB221EAF2BC80079F71E /* FizzBuzz_412_Test.swift in Sources */,
