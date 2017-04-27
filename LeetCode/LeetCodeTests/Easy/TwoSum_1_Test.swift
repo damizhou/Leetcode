@@ -28,7 +28,6 @@ class TwoSum_1_Test: XCTestCase {
         let input0: [Int] = [5, 7, 5, 2, 11, 15]
         let input1: Int = 9
         let expected: [Int] = [1, 3]
-        print("test_TwoSum_1_003`s self = \(self)")
         asyncHelper(input0: input0, input1: input1, expected: expected)
     }
 
