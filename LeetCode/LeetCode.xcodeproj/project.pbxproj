@@ -13,6 +13,8 @@
 		C1369BC11EB2CD6200A6438F /* SumofTwoIntegers_371_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1369BC01EB2CD6200A6438F /* SumofTwoIntegers_371_Test.swift */; };
 		C1369BC31EB2EE4100A6438F /* AddDigits_258.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1369BC21EB2EE4100A6438F /* AddDigits_258.swift */; };
 		C1369BC51EB2EE9600A6438F /* AddDigits_258_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1369BC41EB2EE9600A6438F /* AddDigits_258_Test.swift */; };
+		C1369BC71EB2F16C00A6438F /* MoveZeroes_283.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1369BC61EB2F16C00A6438F /* MoveZeroes_283.swift */; };
+		C1369BC91EB2F18A00A6438F /* MoveZeroes_283_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1369BC81EB2F18A00A6438F /* MoveZeroes_283_Test.swift */; };
 		C167B6DD1E9B1EF30042FA32 /* CountingBits_338_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C167B6DC1E9B1EF30042FA32 /* CountingBits_338_Test.swift */; };
 		C167B6E01E9B1EFB0042FA32 /* CountingBits_338.swift in Sources */ = {isa = PBXBuildFile; fileRef = C167B6DF1E9B1EFB0042FA32 /* CountingBits_338.swift */; };
 		C167B6E41E9B368E0042FA32 /* ReverseString_344.swift in Sources */ = {isa = PBXBuildFile; fileRef = C167B6E31E9B368E0042FA32 /* ReverseString_344.swift */; };
@@ -48,6 +50,8 @@
 		C1369BC01EB2CD6200A6438F /* SumofTwoIntegers_371_Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SumofTwoIntegers_371_Test.swift; sourceTree = "<group>"; };
 		C1369BC21EB2EE4100A6438F /* AddDigits_258.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDigits_258.swift; sourceTree = "<group>"; };
 		C1369BC41EB2EE9600A6438F /* AddDigits_258_Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDigits_258_Test.swift; sourceTree = "<group>"; };
+		C1369BC61EB2F16C00A6438F /* MoveZeroes_283.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveZeroes_283.swift; sourceTree = "<group>"; };
+		C1369BC81EB2F18A00A6438F /* MoveZeroes_283_Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveZeroes_283_Test.swift; sourceTree = "<group>"; };
 		C167B6DC1E9B1EF30042FA32 /* CountingBits_338_Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountingBits_338_Test.swift; sourceTree = "<group>"; };
 		C167B6DF1E9B1EFB0042FA32 /* CountingBits_338.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountingBits_338.swift; sourceTree = "<group>"; };
 		C167B6E31E9B368E0042FA32 /* ReverseString_344.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseString_344.swift; sourceTree = "<group>"; };
@@ -170,6 +174,7 @@
 				C1AFDE0C1E97660300A09A2F /* TwoSum_1.swift */,
 				C1D487AD1EB1878E00FDDC9C /* SingleNumber_136.swift */,
 				C1369BC21EB2EE4100A6438F /* AddDigits_258.swift */,
+				C1369BC61EB2F16C00A6438F /* MoveZeroes_283.swift */,
 				C1EBB58C1EB02EFD00753640 /* NimGame_292.swift */,
 				C167B6E31E9B368E0042FA32 /* ReverseString_344.swift */,
 				C1369BBE1EB2C9E300A6438F /* SumofTwoIntegers_371.swift */,
@@ -183,6 +188,7 @@
 			children = (
 				C1AFDE0F1E97661300A09A2F /* TwoSum_1_Test.swift */,
 				C1D487AF1EB18D5100FDDC9C /* SingleNumber_136_Test.swift */,
+				C1369BC81EB2F18A00A6438F /* MoveZeroes_283_Test.swift */,
 				C1EBB58E1EB02FBB00753640 /* NimGame_292_Test.swift */,
 				C167B6E51E9B36D70042FA32 /* ReverseString_344_Test.swift */,
 				C1369BC01EB2CD6200A6438F /* SumofTwoIntegers_371_Test.swift */,
@@ -299,6 +305,7 @@
 				C167B6E01E9B1EFB0042FA32 /* CountingBits_338.swift in Sources */,
 				C1AFDDEE1E9765B100A09A2F /* ViewController.swift in Sources */,
 				C1369BC31EB2EE4100A6438F /* AddDigits_258.swift in Sources */,
+				C1369BC71EB2F16C00A6438F /* MoveZeroes_283.swift in Sources */,
 				C132BB201EAF2B640079F71E /* FizzBuzz_412.swift in Sources */,
 				C1AFDE0D1E97660300A09A2F /* TwoSum_1.swift in Sources */,
 				C1369BBF1EB2C9E300A6438F /* SumofTwoIntegers_371.swift in Sources */,
@@ -320,6 +327,7 @@
 				C1EBB58F1EB02FBB00753640 /* NimGame_292_Test.swift in Sources */,
 				C167B6DD1E9B1EF30042FA32 /* CountingBits_338_Test.swift in Sources */,
 				C167B6E61E9B36D70042FA32 /* ReverseString_344_Test.swift in Sources */,
+				C1369BC91EB2F18A00A6438F /* MoveZeroes_283_Test.swift in Sources */,
 				C132BB221EAF2BC80079F71E /* FizzBuzz_412_Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
