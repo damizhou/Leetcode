@@ -10,8 +10,6 @@ import XCTest
 @testable import LeetCode
 
 class ReverseString_344_Test: XCTestCase {
-        
-    private static let ProblemName: String = "ReverseString_344_Test"
     
     func test_ReverseString_344_001() {
         let input0: String = "hello"

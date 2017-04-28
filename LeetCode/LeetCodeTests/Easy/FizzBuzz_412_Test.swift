@@ -11,8 +11,6 @@ import XCTest
 
 class FizzBuzz_412_Test: XCTestCase {
     
-    private static let ProblemName: String = "FizzBuzz_412_Test"
-    
     func test_FizzBuzz_412_001() {
         let input0: Int = 15
         let expected: [String] =  ["1","2","Fizz","4","Buzz","Fizz","7","8","Fizz","Buzz","11","Fizz","13","14","FizzBuzz"];
