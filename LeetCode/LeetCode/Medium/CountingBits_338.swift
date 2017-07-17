@@ -24,8 +24,8 @@ class CountingBits_338: NSObject {
         }
         var result : [Int] = [Int](repeating:0, count: num + 1)
         for i in 1...num {
-            result[i] = result[i / 2] + i & 1;
+            result[i] = result[i / 2] + i & 1
         }
-        return result;
+        return result
     }
 }

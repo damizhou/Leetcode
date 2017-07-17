@@ -37,9 +37,9 @@ class SumofTwoIntegers_371: NSObject {
         }
         var cin : Int = 0
         var sum : Int = 0
-        sum = a ^ b;
+        sum = a ^ b
         cin = (a & b) << 1
         
-        return getSum(sum, cin);
+        return getSum(sum, cin)
     }
 }

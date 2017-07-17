@@ -17,6 +17,6 @@ class ReverseString_344: NSObject {
     ///
     /// - returns: 倒序数组
     static func reverseString(s: String) -> String {
-        return String(s.characters.reversed());
+        return String(s.characters.reversed())
     }
 }
