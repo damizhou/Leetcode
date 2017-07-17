@@ -55,13 +55,4 @@ class IntersectionofTwoArrays_349: NSObject {
         }
         return result
     }
-
-    
-    
-    class func solution() {
-        let nums1 = [1,2,2,1,2,3,4,5,6,7,8,9,0]
-        let nums2 = [2,2,1,3,4,5]
-        let result = self.intersection2(nums1, nums2)
-        print("\(object_getClassName(self)!))`s result is \(result)")
-    }
 }
