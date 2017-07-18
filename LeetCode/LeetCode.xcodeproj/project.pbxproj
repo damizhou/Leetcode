@@ -34,6 +34,8 @@
 		C174B76C1F1DA8E500BF1BAF /* ValidAnagram_242_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C174B76B1F1DA8E500BF1BAF /* ValidAnagram_242_Test.swift */; };
 		C174B76E1F1DAA7700BF1BAF /* MajorityElement_169.swift in Sources */ = {isa = PBXBuildFile; fileRef = C174B76D1F1DAA7700BF1BAF /* MajorityElement_169.swift */; };
 		C174B7701F1DAAAC00BF1BAF /* MajorityElement_169_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C174B76F1F1DAAAC00BF1BAF /* MajorityElement_169_Test.swift */; };
+		C174B7721F1DADB800BF1BAF /* ContainsDuplicate_217 .swift in Sources */ = {isa = PBXBuildFile; fileRef = C174B7711F1DADB800BF1BAF /* ContainsDuplicate_217 .swift */; };
+		C174B7741F1DADC500BF1BAF /* ContainsDuplicate_217 _Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C174B7731F1DADC500BF1BAF /* ContainsDuplicate_217 _Test.swift */; };
 		C1AFDDEC1E9765B100A09A2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AFDDEB1E9765B100A09A2F /* AppDelegate.swift */; };
 		C1AFDDEE1E9765B100A09A2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AFDDED1E9765B100A09A2F /* ViewController.swift */; };
 		C1AFDDF11E9765B100A09A2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1AFDDEF1E9765B100A09A2F /* Main.storyboard */; };
@@ -87,6 +89,8 @@
 		C174B76B1F1DA8E500BF1BAF /* ValidAnagram_242_Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidAnagram_242_Test.swift; sourceTree = "<group>"; };
 		C174B76D1F1DAA7700BF1BAF /* MajorityElement_169.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MajorityElement_169.swift; sourceTree = "<group>"; };
 		C174B76F1F1DAAAC00BF1BAF /* MajorityElement_169_Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MajorityElement_169_Test.swift; sourceTree = "<group>"; };
+		C174B7711F1DADB800BF1BAF /* ContainsDuplicate_217 .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ContainsDuplicate_217 .swift"; sourceTree = "<group>"; };
+		C174B7731F1DADC500BF1BAF /* ContainsDuplicate_217 _Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ContainsDuplicate_217 _Test.swift"; sourceTree = "<group>"; };
 		C1AFDDE81E9765B100A09A2F /* LeetCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1AFDDEB1E9765B100A09A2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1AFDDED1E9765B100A09A2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -208,6 +212,7 @@
 				C147032A1F1CB23400ED0021 /* ExcelSheetColumnTitle_168.swift */,
 				C174B76D1F1DAA7700BF1BAF /* MajorityElement_169.swift */,
 				C14703261F1CAF8100ED0021 /* ExcelSheetColumnNumber_171.swift */,
+				C174B7711F1DADB800BF1BAF /* ContainsDuplicate_217 .swift */,
 				C174B7691F1DA87D00BF1BAF /* ValidAnagram_242.swift */,
 				C1369BC21EB2EE4100A6438F /* AddDigits_258.swift */,
 				C1369BC61EB2F16C00A6438F /* MoveZeroes_283.swift */,
@@ -231,6 +236,7 @@
 				C147032C1F1CB2A300ED0021 /* ExcelSheeyColumnTitle_168_Test.swift */,
 				C174B76F1F1DAAAC00BF1BAF /* MajorityElement_169_Test.swift */,
 				C14703281F1CAFBF00ED0021 /* ExcelSheetColumnNumber_171_Test.swift */,
+				C174B7731F1DADC500BF1BAF /* ContainsDuplicate_217 _Test.swift */,
 				C174B76B1F1DA8E500BF1BAF /* ValidAnagram_242_Test.swift */,
 				C1369BC41EB2EE9600A6438F /* AddDigits_258_Test.swift */,
 				C1369BC81EB2F18A00A6438F /* MoveZeroes_283_Test.swift */,
@@ -363,6 +369,7 @@
 				C1369BBF1EB2C9E300A6438F /* SumofTwoIntegers_371.swift in Sources */,
 				C1D487AE1EB1878E00FDDC9C /* SingleNumber_136.swift in Sources */,
 				C1AFDDEC1E9765B100A09A2F /* AppDelegate.swift in Sources */,
+				C174B7721F1DADB800BF1BAF /* ContainsDuplicate_217 .swift in Sources */,
 				C174B76A1F1DA87D00BF1BAF /* ValidAnagram_242.swift in Sources */,
 				C1EBB58D1EB02EFD00753640 /* NimGame_292.swift in Sources */,
 				C14703271F1CAF8100ED0021 /* ExcelSheetColumnNumber_171.swift in Sources */,
@@ -386,6 +393,7 @@
 				C174B76C1F1DA8E500BF1BAF /* ValidAnagram_242_Test.swift in Sources */,
 				C1AFDE011E9765B100A09A2F /* LeetCodeTests.swift in Sources */,
 				C1EBB58F1EB02FBB00753640 /* NimGame_292_Test.swift in Sources */,
+				C174B7741F1DADC500BF1BAF /* ContainsDuplicate_217 _Test.swift in Sources */,
 				C167B6DD1E9B1EF30042FA32 /* CountingBits_338_Test.swift in Sources */,
 				C1E86EDB1F1CB6F800F0257C /* LongestPalindrome_409_Test.swift in Sources */,
 				C167B6E61E9B36D70042FA32 /* ReverseString_344_Test.swift in Sources */,
