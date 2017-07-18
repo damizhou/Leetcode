@@ -32,6 +32,8 @@
 		C167B6E61E9B36D70042FA32 /* ReverseString_344_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C167B6E51E9B36D70042FA32 /* ReverseString_344_Test.swift */; };
 		C174B76A1F1DA87D00BF1BAF /* ValidAnagram_242.swift in Sources */ = {isa = PBXBuildFile; fileRef = C174B7691F1DA87D00BF1BAF /* ValidAnagram_242.swift */; };
 		C174B76C1F1DA8E500BF1BAF /* ValidAnagram_242_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C174B76B1F1DA8E500BF1BAF /* ValidAnagram_242_Test.swift */; };
+		C174B76E1F1DAA7700BF1BAF /* MajorityElement_169.swift in Sources */ = {isa = PBXBuildFile; fileRef = C174B76D1F1DAA7700BF1BAF /* MajorityElement_169.swift */; };
+		C174B7701F1DAAAC00BF1BAF /* MajorityElement_169_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C174B76F1F1DAAAC00BF1BAF /* MajorityElement_169_Test.swift */; };
 		C1AFDDEC1E9765B100A09A2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AFDDEB1E9765B100A09A2F /* AppDelegate.swift */; };
 		C1AFDDEE1E9765B100A09A2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AFDDED1E9765B100A09A2F /* ViewController.swift */; };
 		C1AFDDF11E9765B100A09A2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1AFDDEF1E9765B100A09A2F /* Main.storyboard */; };
@@ -83,6 +85,8 @@
 		C167B6E51E9B36D70042FA32 /* ReverseString_344_Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseString_344_Test.swift; sourceTree = "<group>"; };
 		C174B7691F1DA87D00BF1BAF /* ValidAnagram_242.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidAnagram_242.swift; sourceTree = "<group>"; };
 		C174B76B1F1DA8E500BF1BAF /* ValidAnagram_242_Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidAnagram_242_Test.swift; sourceTree = "<group>"; };
+		C174B76D1F1DAA7700BF1BAF /* MajorityElement_169.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MajorityElement_169.swift; sourceTree = "<group>"; };
+		C174B76F1F1DAAAC00BF1BAF /* MajorityElement_169_Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MajorityElement_169_Test.swift; sourceTree = "<group>"; };
 		C1AFDDE81E9765B100A09A2F /* LeetCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1AFDDEB1E9765B100A09A2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1AFDDED1E9765B100A09A2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -202,6 +206,7 @@
 				C1AFDE0C1E97660300A09A2F /* TwoSum_1.swift */,
 				C1D487AD1EB1878E00FDDC9C /* SingleNumber_136.swift */,
 				C147032A1F1CB23400ED0021 /* ExcelSheetColumnTitle_168.swift */,
+				C174B76D1F1DAA7700BF1BAF /* MajorityElement_169.swift */,
 				C14703261F1CAF8100ED0021 /* ExcelSheetColumnNumber_171.swift */,
 				C174B7691F1DA87D00BF1BAF /* ValidAnagram_242.swift */,
 				C1369BC21EB2EE4100A6438F /* AddDigits_258.swift */,
@@ -224,6 +229,7 @@
 				C1AFDE0F1E97661300A09A2F /* TwoSum_1_Test.swift */,
 				C1D487AF1EB18D5100FDDC9C /* SingleNumber_136_Test.swift */,
 				C147032C1F1CB2A300ED0021 /* ExcelSheeyColumnTitle_168_Test.swift */,
+				C174B76F1F1DAAAC00BF1BAF /* MajorityElement_169_Test.swift */,
 				C14703281F1CAFBF00ED0021 /* ExcelSheetColumnNumber_171_Test.swift */,
 				C174B76B1F1DA8E500BF1BAF /* ValidAnagram_242_Test.swift */,
 				C1369BC41EB2EE9600A6438F /* AddDigits_258_Test.swift */,
@@ -344,6 +350,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C167B6E41E9B368E0042FA32 /* ReverseString_344.swift in Sources */,
+				C174B76E1F1DAA7700BF1BAF /* MajorityElement_169.swift in Sources */,
 				C167B6E01E9B1EFB0042FA32 /* CountingBits_338.swift in Sources */,
 				C1AFDDEE1E9765B100A09A2F /* ViewController.swift in Sources */,
 				C1369BC31EB2EE4100A6438F /* AddDigits_258.swift in Sources */,
@@ -370,6 +377,7 @@
 			files = (
 				C1369BC11EB2CD6200A6438F /* SumofTwoIntegers_371_Test.swift in Sources */,
 				C14703211F1CA9C900ED0021 /* RansomNote_383_Test.swift in Sources */,
+				C174B7701F1DAAAC00BF1BAF /* MajorityElement_169_Test.swift in Sources */,
 				C1369BC51EB2EE9600A6438F /* AddDigits_258_Test.swift in Sources */,
 				C1AFDE101E97661300A09A2F /* TwoSum_1_Test.swift in Sources */,
 				C1D487B01EB18D5100FDDC9C /* SingleNumber_136_Test.swift in Sources */,
